@@ -4,9 +4,11 @@
 @media all and (max-width: 600px)
 {	
 }
+
 body
 {
 	font-family: "Raleway", sans-serif ;
+	font-weight: 500;
 	margin: 0;
 	display: block;
 
@@ -70,6 +72,7 @@ header
 .p-title
 
 {
-	font-size: 1.9em;
-	font-family: "Raleway bold", sans-serif;	
+	font-size: 1.5em;
+	font-family: "Raleway", sans-serif;	
+	font-weight: 700;
 }
