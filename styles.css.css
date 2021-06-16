@@ -34,7 +34,7 @@ header
 
 .logo-header
 {
-	padding-right: 700px;
+	padding-right: 950px;
 	padding-left: 20px;
 	padding-top: 20px;
 	width: 90px;
@@ -140,4 +140,56 @@ header
 	font-weight: bold;
 	color: white;
 	width: 100px;
+}
+
+section
+
+{
+	max-width: 1440px;
+
+	
+}
+
+.filters-content
+
+{
+	display: block;
+
+	
+}
+
+.filters-title
+
+{
+	display: inline;
+	margin-left: 25px;
+
+}
+
+.filters
+{
+	display: inline-flex;
+
+}
+
+
+.list-filters
+
+{
+	margin: 20px;
+	list-style-type: none;
+	padding-right: 20px;
+	border: 1px solid #DEEBFF;
+	border-radius: 200px;
+	
+}
+
+.log-filters
+{
+	background-color:#DEEBFF;
+	color: #0065fc;
+	padding: 20px;
+	margin-right: 10px;
+	border-radius: 50px;
+
 }
