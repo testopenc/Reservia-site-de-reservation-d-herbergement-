@@ -2,7 +2,7 @@
 <html>
 
 <head>
-	<meta charset="UTF-8"
+	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes"/>
 	<link rel="stylesheet" type="text/css" href="styles.css.css">
 	<script src="https://kit.fontawesome.com/f9895cbb83.js" crossorigin="anonymous"></script>
@@ -27,12 +27,15 @@
 			<h1 class="p-title">Trouvez votre hébergement pour des vacances de rêve</h1>
 			<p class="sub-title">En plein centre ville ou en pleine nature</p>
 		</div>
-		<div><i class="fa fa-map-marker" aria-hidden="true"></i>
+		<div class="search-content">
+		<div class="position-icon">
+			<i class="fa fa-map-marker" aria-hidden="true"></i>
 		</div>
 		<form method="submit-search" action="traitement.php">
-			<input class="barrederecherche" type="text" name="place" placeholder="Marseille, France" size="15" maxlength="1O"/>
-			<button id="boutonderecherche">Rechercher</button>
+			<input class="search-bare" type="text" name="place" placeholder="Marseille, France" size="15" maxlength="1O"/>
+			<button id="search-button">Rechercher</button>
 		</form>
+		</div>
 
 		<div class="filtres">
 			<h2>Filtres</h2>
