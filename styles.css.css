@@ -2,66 +2,191 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
 
-
-
 body
 {
 	font-family: "Raleway", sans-serif ;
-   
-   
+	margin: 0;
+	display: block;
+	
+
 }
 
 header
 
 {
  	display: flex;
+	height: 60px;
+	max-width: 1440px;
 	width: 99%;
-	margin: auto;
+
 }
 
 .nav-bar
 
 {
-	height: 30px;
-	display: table;
-	margin-top: 30px;
+	display: flex;
+	align-items: center;
+	
 }
 
-#logo
+.logo-header
 {
- 	width: 100px;
+	padding-right: 950px;
+	padding-left: 20px;
+	padding-top: 20px;
+	width: 90px;
+
 }
-.link-h
+.nav-link-h
 {
- 	margin-left: 650px;
-	font-size: 20px;
 	color: #0065FC;
+	padding: 20px;
+	text-align: center;
+	border-top: 3px solid #0065FC;
 	text-decoration: none;
-}
-.link-a
-{
- 	margin-left: 50px;
-	font-size: 20px;
-	text-decoration: none;
+
 }
 
-.link-s
+.nav-link
 {
- 	margin-left: 50px;
-	font-size: 20px;
+ 	padding: 50px;
+	color: black;
+	text-decoration: none;
+	border-top: 3px solid;
+}
+
+.sub-link
+{
+	display: flex;
+	padding-left: 30px;
+	align-items: center;
 	color:#0065FC;
 	text-decoration: none;
+	border-top: 3px solid white;
+	
 }
+
+
 
 .title-content
 {
-	margin: auto;
-	width: auto;	
+	margin: 25px;
+	
 }
 
 .p-title
 
 {
-	font-size: 1.9em;
-	font-family: "Raleway bold", sans-serif;	
+	font-size: 1.3em;
+	font-family: "Raleway", sans-serif;	
+	margin-bottom: 10px;
+}
+
+.sub-title
+
+{
+	font-size: 0.8em;
+		
+	
+}
+
+.search-content
+
+{
+	
+	display: inline-flex;
+	margin-left: 25px;
+	margin-top: 5px;
+	margin-bottom: 20px;
+	height: 50px;
+}
+
+.position-icon
+
+{
+	background-color: #F2F2F2;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 50px;
+	height: 50px;
+	border-radius: 9px 0 0 9px;
+
+
+	
+}
+
+.search-bar
+
+{
+	padding-left: 10px;
+	font-family: "Raleway", sans-serif;
+	font-weight: bold;
+	border: none;
+	border-top: 1px solid #F2F2F2;
+	border-bottom: 1px solid #F2F2F2;
+}
+
+#search-button
+
+{
+	background-color: #0065FC;
+	font-family: "Raleway";
+	border-radius: 0 9px 9px 0;
+	border: none;	
+	font-weight: bold;
+	color: white;
+	width: 100px;
+}
+
+section
+
+{
+	max-width: 1440px;
+
+	
+}
+
+.filters-content
+
+{
+	display: block;
+
+	
+}
+
+.filters-title
+
+{
+	display: inline;
+	margin-left: 25px;
+
+}
+
+.filters
+{
+	display: inline-flex;
+
+}
+
+
+.list-filters
+
+{
+	margin: 20px;
+	list-style-type: none;
+	padding-right: 20px;
+	border: 1px solid #DEEBFF;
+	border-radius: 30px;
+	
+}
+
+.log-filters
+{
+	background-color:#DEEBFF;
+	color: #0065fc;
+	padding: 20px;
+	margin-right: 10px;
+	border-radius: 50px;
+
 }
