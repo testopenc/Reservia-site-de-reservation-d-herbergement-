@@ -17,8 +17,7 @@ header
 {
  	display: flex;
 	height: 60px;
-	max-width: 1440px;
-	width: 99%;
+
 
 }
 
@@ -32,10 +31,10 @@ header
 
 .logo-header
 {
-	padding-right: 950px;
+	padding-right: 910px;
 	padding-left: 20px;
 	padding-top: 20px;
-	width: 90px;
+
 
 }
 .nav-link-h
@@ -223,4 +222,51 @@ section p
 
 }
 
+.hosting-content
 
+{
+	background-color: #F2F2F2;
+	margin: 25px;
+	width: 850px;
+	height: 350px;
+	border-radius: 5%;
+	display: grid;
+}
+
+.hosting-title
+
+{
+	margin: 15px;
+	width: 300px;
+
+
+}
+
+.hosting-main
+
+{
+	margin: 10px;
+	width: 250px;
+	height: 80px;
+}
+
+.auberge
+
+{
+	width: 200px;
+	border-radius: 20px;
+}
+
+.hosting-text
+
+{
+	background-color: #F2F2F2;
+	color: black;
+}
+
+.hosting-text h3 p 
+
+{
+	margin: 10px;
+	
+}
