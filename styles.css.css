@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
 
+
 body
 {
 	font-family: "Raleway", sans-serif ;
@@ -16,8 +17,7 @@ header
 {
  	display: flex;
 	height: 60px;
-	max-width: 1440px;
-	width: 99%;
+
 
 }
 
@@ -31,10 +31,10 @@ header
 
 .logo-header
 {
-	padding-right: 950px;
+	padding-right: 910px;
 	padding-left: 20px;
 	padding-top: 20px;
-	width: 90px;
+
 
 }
 .nav-link-h
@@ -189,4 +189,162 @@ section
 	margin-right: 10px;
 	border-radius: 50px;
 
+}
+
+.info-content
+
+{
+	margin-left: 20px;
+	display: flex;
+	align-items: center;
+
+}
+
+.info
+
+{
+	width: 25px;
+	height: 25px;
+	border: 2px solid #DEEBFF;
+	border-radius: 50px;
+	color: #0065FC;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-right: 15px;
+
+}
+
+.most-popular
+
+{
+	width: 450px;
+	height: 600px;
+	background-color: #F2F2F2;
+	border-radius: 20px;
+	margin: 30px;
+	display: flow-root;
+}
+
+.most-pop-header
+
+{
+	margin: 10px;
+}
+
+.most-pop-title
+
+{
+	font-size: 0.9em;
+	margin: 20px;
+}
+
+.most-pop-icon
+
+{
+	margin-left: 150px;
+	margin-top: 45px;
+}
+
+.most-pop-content
+
+{
+	height: 130px;
+	border-radius: 20px;
+	border: solid 2px white;
+	border-style: groove;
+	display: -webkit-inline-box;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+.most-pop-img
+
+{
+	width: 150px;
+	border-radius: 20px 0 0 20px;
+	height: 130px;
+}
+
+.most-pop-txt
+
+{
+	background-color: white;
+	border-radius: 0 20px 20px 0;
+	padding-left: 15px;
+	width: 200px;
+}
+
+.most-pop-txt h3
+{
+	margin-top: 5px;
+}
+
+.notation
+{
+	color: blue;
+}
+
+section p
+
+{
+	color: rgb(133, 127, 127);
+
+}
+
+.hosting-content
+
+{
+	background-color: #F2F2F2;
+	margin: 25px;
+	width: 850px;
+	height: 350px;
+	border-radius: 5%;
+	display: flex;
+}
+
+.hosting-title
+
+{
+	margin: 15px;
+	width: 300px;
+
+
+}
+
+.hosting-main
+
+{
+	margin: 5px;
+	width: 250px;
+	height: 80px;
+}
+
+.hosting-main img
+
+{
+	width: 200px;
+	border-radius: 20px;
+	margin-left: 25px;
+}
+
+
+.hosting-text
+
+{
+	background-color: #F2F2F2;
+	color: black;
+	width: 200px;
+	height: 80px;
+	margin-left: 30px;
+	border-radius: 0 0 20px 20px;
+
+}
+
+.hosting-text h3 
+
+{
+	margin: 10px;
+	margin-left: 25px;
+	padding: 5px;
 }
