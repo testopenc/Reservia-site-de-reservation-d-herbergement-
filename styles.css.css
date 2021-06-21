@@ -302,23 +302,150 @@ section p{
 .activity{
 	margin: 10px;
 	background-color: blueviolet;
+	display: flex;
+	height: 500px;
+	width: auto;
 }
 
 .activity-header{
 	width: 400px;
 }
 .activity-title{
-	font-size: 0.8em;
+	font-size: 1.3em;
+	margin: 5px 5px 10px 25px;
 }
+/* port*/
 
 .activity-content{
-	display: flex;
+	width: 200px;
+	height: 275px;
+	background-color: white;
+	margin: 30px;
+	border-radius: 20px;
+	border: 2px solid #DEEBFF;
 }
 
 .activity-img{
 	width: 200px;
+	height: 235px;
+	border-radius: 20px 20px 0 0;
 }
 
 .activity-txt{
 	font-size: 0.7em;
+	margin: 5px 5px 5px 15px;
+
+}
+
+/*fort*/
+
+.activity-content-fort{
+	width: 200px;
+	height: 185px;
+	background-color: white;
+	margin: 30px;
+	border-radius: 20px;
+	border: 2px solid #DEEBFF;
+}
+
+.activity-img-fort{
+	width: 200px;
+	height: 150px;
+	border-radius: 20px 20px 0 0;
+}
+
+.activity-txt-fort{
+	font-size: 0.7em;
+	margin: 3px 3px 5px 15px;
+	
+}
+
+/* frioul*/
+
+.activity-content-frioul{
+	width: 200px;
+	height: 150px;
+	background-color: white;
+	margin: 30px;
+	border-radius: 20px;
+	border: 2px solid #DEEBFF;
+}
+
+.activity-img-frioul{
+	width: 200px;
+	height: 115px;
+	border-radius: 20px 20px 0 0;
+}
+
+.activity-txt-frioul{
+	font-size: 0.7em;
+	margin: 3px 3px 5px 15px;
+}
+
+/* calanques*/
+
+.activity-content-cal{
+	width: 200px;
+	height: 275px;
+	background-color: white;
+	margin: 30px;
+	border-radius: 20px;
+	border: 2px solid #DEEBFF;
+}
+
+.activity-img-cal{
+	width: 200px;
+	height: 235px;
+	border-radius: 20px 20px 0 0;
+}
+
+.activity-txt-cal{
+	font-size: 0.7em;
+	margin: 3px 3px 5px 15px;
+	
+}
+
+/* notre dame*/
+
+.activity-content-nd{
+	width: 200px;
+	height: 150px;
+	background-color: white;
+	margin: 30px;
+	border-radius: 20px;
+	border: 2px solid #DEEBFF;
+}
+
+.activity-img-nd{
+	width: 200px;
+	height: 115px;
+	border-radius: 20px 20px 0 0;
+}
+
+.activity-txt-nd{
+	font-size: 0.7em;
+	margin: 3px 3px 5px 15px;
+}
+
+/* parc*/
+
+.activity-content-pl{
+	width: 200px;
+	height: 165px;
+	background-color: white;
+	margin: 30px;
+	border-radius: 20px;
+	border: 2px solid #DEEBFF;
+}
+
+.activity-img-pl{
+	width: 200px;
+	height: 125px;
+	border-radius: 20px 20px 0 0;
+}
+
+.activity-txt-pl{
+	font-size: 0.7em;
+	margin: 3px 3px 5px 15px;
+	
 }
