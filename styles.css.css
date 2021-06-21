@@ -298,3 +298,27 @@ section p{
 .load-more{
 	margin: 10px 20px 5px 40px;
 }
+
+.activity{
+	margin: 10px;
+	background-color: blueviolet;
+}
+
+.activity-header{
+	width: 400px;
+}
+.activity-title{
+	font-size: 0.8em;
+}
+
+.activity-content{
+	display: flex;
+}
+
+.activity-img{
+	width: 200px;
+}
+
+.activity-txt{
+	font-size: 0.7em;
+}
