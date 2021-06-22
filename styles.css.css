@@ -26,7 +26,7 @@ header{
 }
 
 .logo-header{
-	padding : 20px 910px 0 20px;
+	padding : 20px 710px 0 20px;
 }
 
 .nav-link-h{
@@ -118,7 +118,7 @@ section search-section{
 }
 
 .main-block{
-	width: auto;
+	width: 1315px;
 
 }
 
@@ -128,7 +128,7 @@ section search-section{
 
 .filters-title{
 	display: inline;
-	margin-left: 15px;
+	margin-left: 25px;
 }
 
 .filters{
@@ -162,7 +162,7 @@ section search-section{
 .info{
 	width: 25px;
 	height: 25px;
-	border: 2px solid #DEEBFF;
+	border: 2px solid white;
 	border-radius: 50px;
 	color: #0065FC;
 	display: flex;
@@ -175,16 +175,15 @@ section search-section{
 .main-block{
 	display: flex;
 	flex-direction: row-reverse;
-	margin: 15px;
+	width: 1292px;
 }
 
 .most-popular{
-	width: 450px;
+	width: 482px;
 	height: 650px;
 	background-color: #F2F2F2;
 	border-radius: 20px;
-	margin: 20px;
-	display: flow-root;
+	margin: 20px 5px 5px 5px;
 }
 
 .most-pop-header{
@@ -205,7 +204,6 @@ section search-section{
 	height: 130px;
 	border-radius: 20px;
 	border: solid 2px white;
-	border-style: groove;
 	display: flex;
 	margin: 35px 40px 25px 40px;
 	width: 350px;
@@ -241,7 +239,7 @@ section p{
 .hosting-block{
 	background-color: #F2F2F2;
 	margin: 20px;
-	width: 850px;
+	width: 770px;
 	height: 650px;
 	border-radius: 20px;
 }
@@ -260,7 +258,7 @@ section p{
 .hosting-content{
 	display: inline-grid;
 	margin: 20px;
-	width: 220px;
+	width: 195px;
 	height: 200px;
 	background-color: white;
 	border-radius: 20px;
@@ -269,7 +267,7 @@ section p{
 
 
 .hosting-img{
-	width: 220px;
+	width: 195px;
 	border-radius: 20px 20px 0 0;
 	height: 120px;
 }
@@ -312,7 +310,6 @@ section p{
 .grid{
 	display: flex;
 	width: 950px;
-	margin: 20px;
 }
 
 .activity-header{
@@ -325,16 +322,16 @@ section p{
 /* port*/
 
 .activity-content{
-	width: 310px;
+	width: 295px;
 	height: 370px;
 	background-color: white;
-	margin: 15px;
+	margin: 10px;
 	border-radius: 20px;
-	border: 2px solid #DEEBFF;
+	border: 2px solid white;
 }
 
 .activity-img{
-	width: 310px;
+	width: 295px;
 	height: 325px;
 	border-radius: 20px 20px 0 0;
 }
@@ -348,16 +345,16 @@ section p{
 /*fort*/
 
 .activity-content-fort{
-	width: 310px;
+	width: 295px;
 	height: 195px;
 	background-color: white;
-	margin: 15px;
+	margin: 10px;
 	border-radius: 20px;
-	border: 2px solid #DEEBFF;
+	border: 2px solid white;
 }
 
 .activity-img-fort{
-	width: 310px;
+	width: 295px;
 	height: 150px;
 	border-radius: 20px 20px 0 0;
 }
@@ -371,16 +368,16 @@ section p{
 /* frioul*/
 
 .activity-content-frioul{
-	width: 310px;
+	width: 295px;
 	height: 151px;
 	background-color: white;
-	margin: 15px;
+	margin: 10px;
 	border-radius: 20px;
-	border: 2px solid #DEEBFF;
+	border: 2px solid white;
 }
 
 .activity-img-frioul{
-	width: 310px;
+	width: 295px;
 	height: 106px;
 	border-radius: 20px 20px 0 0;
 }
@@ -393,16 +390,16 @@ section p{
 /* calanques*/
 
 .activity-content-cal{
-	width: 310px;
+	width: 295px;
 	height: 370px;
 	background-color: white;
-	margin: 15px;
+	margin: 10px;
 	border-radius: 20px;
-	border: 2px solid #DEEBFF;
+	border: 2px solid white;
 }
 
 .activity-img-cal{
-	width: 310px;
+	width: 295px;
 	height: 325px;
 	border-radius: 20px 20px 0 0;
 }
@@ -416,16 +413,16 @@ section p{
 /* notre dame*/
 
 .activity-content-nd{
-	width: 310px;
+	width: 295px;
 	height: 165px;
 	background-color: white;
-	margin: 15px;
+	margin: 10px;
 	border-radius: 20px;
-	border: 2px solid #DEEBFF;
+	border: 2px solid white;
 }
 
 .activity-img-nd{
-	width: 310px;
+	width: 295px;
 	height: 120px;
 	border-radius: 20px 20px 0 0;
 }
@@ -438,16 +435,16 @@ section p{
 /* parc*/
 
 .activity-content-pl{
-	width: 310px;
+	width: 295px;
 	height: 180px;
 	background-color: white;
-	margin: 15px;
+	margin: 10px;
 	border-radius: 20px;
-	border: 2px solid #DEEBFF;
+	border: 2px solid white;
 }
 
 .activity-img-pl{
-	width: 310px;
+	width: 295px;
 	height: 136px;
 	border-radius: 20px 20px 0 0;
 }
@@ -465,7 +462,7 @@ section p{
 	background-color: #F2F2F2;
 	display: flex;
 	width: 1415px;
-	margin: 20px 5px 5px 30px;
+	margin: 5px 15px 5px 30px;
 
 }
 
@@ -482,6 +479,8 @@ section p{
 .service ul{
 	list-style-type: none;
 }
+
+
 
 
 
