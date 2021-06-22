@@ -7,14 +7,16 @@ body{
 	font-family: "Raleway", sans-serif ;
 	margin: 0;
 	display: block;
-	max-width: 1440px;
+	width: 1440px;
+}
+
+img{
+	object-fit: cover;
 }
 
 header{
  	display: flex;
 	height: 60px;
-
-
 }
 
 .nav-bar{
@@ -52,6 +54,10 @@ header{
 	border-top: 3px solid white;
 	
 }
+
+section search-section{
+	margin: 15px;
+} 
 
 
 
@@ -124,7 +130,7 @@ header{
 
 .filters-title{
 	display: inline;
-	margin-left: 25px;
+	margin-left: 15px;
 }
 
 .filters{
@@ -300,11 +306,15 @@ section p{
 }
 
 .activity{
-	margin: 10px;
-	background-color: blueviolet;
-	display: flex;
+	margin: 25px;
 	height: 500px;
 	width: auto;
+}
+
+.grid{
+	display: flex;
+	width: 950px;
+	margin: 20px;
 }
 
 .activity-header{
@@ -317,17 +327,17 @@ section p{
 /* port*/
 
 .activity-content{
-	width: 200px;
-	height: 275px;
+	width: 310px;
+	height: 370px;
 	background-color: white;
-	margin: 30px;
+	margin: 15px;
 	border-radius: 20px;
 	border: 2px solid #DEEBFF;
 }
 
 .activity-img{
-	width: 200px;
-	height: 235px;
+	width: 310px;
+	height: 325px;
 	border-radius: 20px 20px 0 0;
 }
 
@@ -340,16 +350,16 @@ section p{
 /*fort*/
 
 .activity-content-fort{
-	width: 200px;
-	height: 185px;
+	width: 310px;
+	height: 195px;
 	background-color: white;
-	margin: 30px;
+	margin: 15px;
 	border-radius: 20px;
 	border: 2px solid #DEEBFF;
 }
 
 .activity-img-fort{
-	width: 200px;
+	width: 310px;
 	height: 150px;
 	border-radius: 20px 20px 0 0;
 }
@@ -363,17 +373,17 @@ section p{
 /* frioul*/
 
 .activity-content-frioul{
-	width: 200px;
-	height: 150px;
+	width: 310px;
+	height: 151px;
 	background-color: white;
-	margin: 30px;
+	margin: 15px;
 	border-radius: 20px;
 	border: 2px solid #DEEBFF;
 }
 
 .activity-img-frioul{
-	width: 200px;
-	height: 115px;
+	width: 310px;
+	height: 106px;
 	border-radius: 20px 20px 0 0;
 }
 
@@ -385,17 +395,17 @@ section p{
 /* calanques*/
 
 .activity-content-cal{
-	width: 200px;
-	height: 275px;
+	width: 310px;
+	height: 370px;
 	background-color: white;
-	margin: 30px;
+	margin: 15px;
 	border-radius: 20px;
 	border: 2px solid #DEEBFF;
 }
 
 .activity-img-cal{
-	width: 200px;
-	height: 235px;
+	width: 310px;
+	height: 325px;
 	border-radius: 20px 20px 0 0;
 }
 
@@ -408,17 +418,17 @@ section p{
 /* notre dame*/
 
 .activity-content-nd{
-	width: 200px;
-	height: 150px;
+	width: 310px;
+	height: 165px;
 	background-color: white;
-	margin: 30px;
+	margin: 15px;
 	border-radius: 20px;
 	border: 2px solid #DEEBFF;
 }
 
 .activity-img-nd{
-	width: 200px;
-	height: 115px;
+	width: 310px;
+	height: 120px;
 	border-radius: 20px 20px 0 0;
 }
 
@@ -430,17 +440,17 @@ section p{
 /* parc*/
 
 .activity-content-pl{
-	width: 200px;
-	height: 165px;
+	width: 310px;
+	height: 180px;
 	background-color: white;
-	margin: 30px;
+	margin: 15px;
 	border-radius: 20px;
 	border: 2px solid #DEEBFF;
 }
 
 .activity-img-pl{
-	width: 200px;
-	height: 125px;
+	width: 310px;
+	height: 136px;
 	border-radius: 20px 20px 0 0;
 }
 
@@ -449,3 +459,31 @@ section p{
 	margin: 3px 3px 5px 15px;
 	
 }
+
+/* footer */
+
+
+.footer-content{
+	background-color: #F2F2F2;
+	display: flex;
+	width: 1415px;
+	margin: 20px 5px 5px 30px;
+
+}
+
+.service{
+	width: 300px;
+	margin: 30px;
+}
+
+.service h3{
+	font-size: 1.3em;
+	margin-left: 35px;
+}
+
+.service ul{
+	list-style-type: none;
+}
+
+
+
