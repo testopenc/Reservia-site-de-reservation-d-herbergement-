@@ -42,7 +42,7 @@ header{
  	padding: 50px;
 	color: black;
 	text-decoration: none;
-	border-top: 3px solid;
+
 }
 
 .sub-link{
@@ -175,11 +175,11 @@ section search-section{
 .main-block{
 	display: flex;
 	flex-direction: row-reverse;
-	width: 1292px;
+	max-width: 1255px;
 }
 
 .most-popular{
-	width: 482px;
+	width: 450px;
 	height: 650px;
 	background-color: #F2F2F2;
 	border-radius: 20px;
@@ -201,12 +201,13 @@ section search-section{
 }
 
 .most-pop-content{
+	display: flex;
 	height: 130px;
 	border-radius: 20px;
 	border: solid 2px white;
-	display: flex;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	margin: 35px 40px 25px 40px;
-	width: 350px;
+	width: 335px;
 }
 
 .most-pop-img{
@@ -238,7 +239,7 @@ section p{
 
 .hosting-block{
 	background-color: #F2F2F2;
-	margin: 20px;
+	margin: 20px 15px 5px 20px;
 	width: 770px;
 	height: 650px;
 	border-radius: 20px;
@@ -263,6 +264,7 @@ section p{
 	background-color: white;
 	border-radius: 20px;
 	border: solid 2px white;
+	box-shadow: 0 4px 4px 0 rgba(129, 128, 128, 0.2), 0 6px 4px 0 rgba(129, 128, 128, 0.2);
 }
 
 
@@ -302,9 +304,9 @@ section p{
 }
 
 .activity{
-	margin: 25px;
+	margin: 20px 15px 5px 5px;
 	height: 500px;
-	width: auto;
+
 }
 
 .grid{
@@ -322,16 +324,17 @@ section p{
 /* port*/
 
 .activity-content{
-	width: 295px;
+	width: 275px;
 	height: 370px;
 	background-color: white;
 	margin: 10px;
 	border-radius: 20px;
 	border: 2px solid white;
+	box-shadow: 0 4px 8px 0 rgba(129, 128, 128, 0.2);
 }
 
 .activity-img{
-	width: 295px;
+	width: 275px;
 	height: 325px;
 	border-radius: 20px 20px 0 0;
 }
@@ -345,16 +348,17 @@ section p{
 /*fort*/
 
 .activity-content-fort{
-	width: 295px;
+	width: 280px;
 	height: 195px;
 	background-color: white;
 	margin: 10px;
 	border-radius: 20px;
 	border: 2px solid white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 .activity-img-fort{
-	width: 295px;
+	width: 280px;
 	height: 150px;
 	border-radius: 20px 20px 0 0;
 }
@@ -368,16 +372,17 @@ section p{
 /* frioul*/
 
 .activity-content-frioul{
-	width: 295px;
+	width: 280px;
 	height: 151px;
 	background-color: white;
 	margin: 10px;
 	border-radius: 20px;
 	border: 2px solid white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 .activity-img-frioul{
-	width: 295px;
+	width: 280px;
 	height: 106px;
 	border-radius: 20px 20px 0 0;
 }
@@ -390,16 +395,17 @@ section p{
 /* calanques*/
 
 .activity-content-cal{
-	width: 295px;
+	width: 275px;
 	height: 370px;
 	background-color: white;
 	margin: 10px;
 	border-radius: 20px;
 	border: 2px solid white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 .activity-img-cal{
-	width: 295px;
+	width: 275px;
 	height: 325px;
 	border-radius: 20px 20px 0 0;
 }
@@ -413,16 +419,17 @@ section p{
 /* notre dame*/
 
 .activity-content-nd{
-	width: 295px;
+	width: 280px;
 	height: 165px;
 	background-color: white;
 	margin: 10px;
 	border-radius: 20px;
 	border: 2px solid white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 .activity-img-nd{
-	width: 295px;
+	width: 280px;
 	height: 120px;
 	border-radius: 20px 20px 0 0;
 }
@@ -435,16 +442,17 @@ section p{
 /* parc*/
 
 .activity-content-pl{
-	width: 295px;
+	width: 280px;
 	height: 180px;
 	background-color: white;
 	margin: 10px;
 	border-radius: 20px;
 	border: 2px solid white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
 .activity-img-pl{
-	width: 295px;
+	width: 280px;
 	height: 136px;
 	border-radius: 20px 20px 0 0;
 }
@@ -461,14 +469,11 @@ section p{
 .footer-content{
 	background-color: #F2F2F2;
 	display: flex;
-	width: 1415px;
-	margin: 5px 15px 5px 30px;
-
 }
 
 .service{
-	width: 300px;
-	margin: 30px;
+	width: 332px;
+	margin: 30px 30px 30px 5px;
 }
 
 .service h3{
@@ -479,6 +484,21 @@ section p{
 .service ul{
 	list-style-type: none;
 }
+
+@media (max-width: 355px) {
+	header{
+		display: inline;
+	}	
+
+	.nav-link{
+		border-top: 2px solid black;
+		padding: 21px;
+	}
+	.sub-link{
+		display: ruby;
+	}
+}
+
 
 
 
