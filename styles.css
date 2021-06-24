@@ -205,7 +205,7 @@ section search-section{
 	height: 130px;
 	border-radius: 20px;
 	border: solid 2px white;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	box-shadow: 0 4px 4px 0 rgba(129, 128, 128, 0.2), 0 6px 6px 0 rgba(129, 128, 128, 0.2);
 	margin: 35px 40px 25px 40px;
 	width: 335px;
 }
@@ -264,7 +264,7 @@ section p{
 	background-color: white;
 	border-radius: 20px;
 	border: solid 2px white;
-	box-shadow: 0 4px 4px 0 rgba(129, 128, 128, 0.2), 0 6px 4px 0 rgba(129, 128, 128, 0.2);
+	box-shadow: 0 4px 4px 0 rgba(129, 128, 128, 0.2), 0 4px 4px 0 rgba(129, 128, 128, 0.2);
 }
 
 
@@ -330,7 +330,7 @@ section p{
 	margin: 10px;
 	border-radius: 20px;
 	border: 2px solid white;
-	box-shadow: 0 4px 8px 0 rgba(129, 128, 128, 0.2);
+	box-shadow: 0 4px 4px 0 rgba(129, 128, 128, 0.2);
 }
 
 .activity-img{
@@ -349,17 +349,17 @@ section p{
 
 .activity-content-fort{
 	width: 280px;
-	height: 195px;
+	height: 200px;
 	background-color: white;
 	margin: 10px;
 	border-radius: 20px;
 	border: 2px solid white;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	box-shadow: 0 4px 4px 0 rgba(129, 128, 128, 0.2);
 }
 
 .activity-img-fort{
 	width: 280px;
-	height: 150px;
+	height: 155px;
 	border-radius: 20px 20px 0 0;
 }
 
@@ -373,17 +373,17 @@ section p{
 
 .activity-content-frioul{
 	width: 280px;
-	height: 151px;
+	height: 156px;
 	background-color: white;
 	margin: 10px;
 	border-radius: 20px;
 	border: 2px solid white;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	box-shadow: 0 4px 4px 0 rgba(129, 128, 128, 0.2);
 }
 
 .activity-img-frioul{
 	width: 280px;
-	height: 106px;
+	height: 111px;
 	border-radius: 20px 20px 0 0;
 }
 
@@ -401,7 +401,7 @@ section p{
 	margin: 10px;
 	border-radius: 20px;
 	border: 2px solid white;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	box-shadow: 0 4px 4px 0 rgba(129, 128, 128, 0.2);
 }
 
 .activity-img-cal{
@@ -425,7 +425,7 @@ section p{
 	margin: 10px;
 	border-radius: 20px;
 	border: 2px solid white;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	box-shadow: 0 4px 4px 0 rgba(129, 128, 128, 0.2);
 }
 
 .activity-img-nd{
@@ -443,17 +443,17 @@ section p{
 
 .activity-content-pl{
 	width: 280px;
-	height: 180px;
+	height: 190px;
 	background-color: white;
 	margin: 10px;
 	border-radius: 20px;
 	border: 2px solid white;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	box-shadow: 0 4px 4px 0 rgba(129, 128, 128, 0.2);
 }
 
 .activity-img-pl{
 	width: 280px;
-	height: 136px;
+	height: 144px;
 	border-radius: 20px 20px 0 0;
 }
 
