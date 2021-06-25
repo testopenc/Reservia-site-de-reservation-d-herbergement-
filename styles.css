@@ -5,9 +5,8 @@
 
 body{
 	font-family: "Raleway", sans-serif ;
-	margin: 0;
+	margin: 0px;
 	display: block;
-	width: 1440px;
 }
 
 img{
@@ -65,7 +64,7 @@ section search-section{
 }
 
 .p-title{
-	font-size: 1.3em;
+	font-size: 1.5em;
 	font-family: "Raleway", sans-serif;	
 	margin-bottom: 10px;
 }
@@ -124,6 +123,7 @@ section search-section{
 
 .filters-content{
 	display: block;
+	width: 1100px;
 }
 
 .filters-title{
@@ -133,6 +133,7 @@ section search-section{
 
 .filters{
 	display: inline-flex;
+	width: 900px;
 }
 
 .list-filters{
@@ -204,7 +205,7 @@ section search-section{
 	display: flex;
 	height: 130px;
 	border-radius: 20px;
-	border: solid 2px white;
+	border: solid 3px white;
 	box-shadow: 0 4px 4px 0 rgba(129, 128, 128, 0.2), 0 6px 6px 0 rgba(129, 128, 128, 0.2);
 	margin: 35px 40px 25px 40px;
 	width: 335px;
@@ -259,19 +260,19 @@ section p{
 .hosting-content{
 	display: inline-grid;
 	margin: 20px;
-	width: 195px;
-	height: 200px;
+	width: 205px;
+	height: 170px;
 	background-color: white;
 	border-radius: 20px;
-	border: solid 2px white;
+	border: solid 3px white;
 	box-shadow: 0 4px 4px 0 rgba(129, 128, 128, 0.2), 0 4px 4px 0 rgba(129, 128, 128, 0.2);
 }
 
 
 .hosting-img{
-	width: 195px;
+	width: 205px;
 	border-radius: 20px 20px 0 0;
-	height: 120px;
+	height: 90px;
 }
 
 
@@ -300,7 +301,7 @@ section p{
 }
 
 .load-more{
-	margin: 10px 20px 5px 40px;
+	margin: 60px 20px 5px 40px;
 }
 
 .activity{
@@ -329,7 +330,7 @@ section p{
 	background-color: white;
 	margin: 10px;
 	border-radius: 20px;
-	border: 2px solid white;
+	border: 3px solid white;
 	box-shadow: 0 4px 4px 0 rgba(129, 128, 128, 0.2);
 }
 
@@ -353,7 +354,7 @@ section p{
 	background-color: white;
 	margin: 10px;
 	border-radius: 20px;
-	border: 2px solid white;
+	border: 3px solid white;
 	box-shadow: 0 4px 4px 0 rgba(129, 128, 128, 0.2);
 }
 
@@ -377,13 +378,13 @@ section p{
 	background-color: white;
 	margin: 10px;
 	border-radius: 20px;
-	border: 2px solid white;
+	border: 3px solid white;
 	box-shadow: 0 4px 4px 0 rgba(129, 128, 128, 0.2);
 }
 
 .activity-img-frioul{
 	width: 280px;
-	height: 111px;
+	height: 110px;
 	border-radius: 20px 20px 0 0;
 }
 
@@ -400,7 +401,7 @@ section p{
 	background-color: white;
 	margin: 10px;
 	border-radius: 20px;
-	border: 2px solid white;
+	border: 3px solid white;
 	box-shadow: 0 4px 4px 0 rgba(129, 128, 128, 0.2);
 }
 
@@ -424,7 +425,7 @@ section p{
 	background-color: white;
 	margin: 10px;
 	border-radius: 20px;
-	border: 2px solid white;
+	border: 3px solid white;
 	box-shadow: 0 4px 4px 0 rgba(129, 128, 128, 0.2);
 }
 
@@ -447,7 +448,7 @@ section p{
 	background-color: white;
 	margin: 10px;
 	border-radius: 20px;
-	border: 2px solid white;
+	border: 3px solid white;
 	box-shadow: 0 4px 4px 0 rgba(129, 128, 128, 0.2);
 }
 
@@ -485,19 +486,6 @@ section p{
 	list-style-type: none;
 }
 
-@media (max-width: 355px) {
-	header{
-		display: inline;
-	}	
-
-	.nav-link{
-		border-top: 2px solid black;
-		padding: 21px;
-	}
-	.sub-link{
-		display: ruby;
-	}
-}
 
 
 
