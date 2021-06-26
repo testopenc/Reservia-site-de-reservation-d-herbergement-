@@ -484,31 +484,28 @@ section p{
 	list-style-type: none;
 }
 
+footer{
+	width: 1216px;
+}
+
 
 @media (max-width: 799px) {
 
-	header{
-		
+	.boby{
+		width: 799px;
+		max-height: 7300px;
+		margin: 15px;
 	}
 
 	.logo-header{
-		padding: 20px 110px 0 20px;
+		padding: 20px 560px 0 20px;
 	}
-	
-	.nav-bar{
 
-	}
 	.nav-link{
 		border-top: 2px solid black;
 		padding: 21px;
 	}
-	.sub-link{
-		
-	}
 
-	.filters-content{
-		width: 500px;
-	}
 	.filters.title{
 		margin: 15px 5px 0 0;
 	}
@@ -527,7 +524,9 @@ section p{
 
 	.main-block{
 		flex-direction: column;
-		height: 2060px;
+		height: 2140px;
+		width: 485px;
+		margin: 15px;
 	}
 	.most-popular{
 		margin: 0px;
@@ -539,6 +538,7 @@ section p{
 		height: 1490px;
 	}
 	.activity{
+		height: 1650px;
 
 	}
 	.activity-content{
@@ -548,6 +548,9 @@ section p{
 		flex-direction: column;
 		height: 1608px;
 		width: 450px;
+	}
+	.footer-content{
+		flex-direction: column;
 	}
 
 
