@@ -5,9 +5,9 @@
 
 body{
 	font-family: "Raleway", sans-serif ;
-	margin: 0;
+	margin: 0px;
 	display: block;
-	width: 1440px;
+	width: 825px;
 }
 
 img{
@@ -65,7 +65,7 @@ section search-section{
 }
 
 .p-title{
-	font-size: 1.3em;
+	font-size: 1.5em;
 	font-family: "Raleway", sans-serif;	
 	margin-bottom: 10px;
 }
@@ -123,7 +123,7 @@ section search-section{
 }
 
 .filters-content{
-	display: block;
+	width: 1100px;
 }
 
 .filters-title{
@@ -133,6 +133,7 @@ section search-section{
 
 .filters{
 	display: inline-flex;
+	width: 900px;
 }
 
 .list-filters{
@@ -204,8 +205,8 @@ section search-section{
 	display: flex;
 	height: 130px;
 	border-radius: 20px;
-	border: solid 2px white;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border: solid 3px white;
+	box-shadow: 0 4px 4px 0 rgba(129, 128, 128, 0.2), 0 6px 6px 0 rgba(129, 128, 128, 0.2);
 	margin: 35px 40px 25px 40px;
 	width: 335px;
 }
@@ -259,19 +260,19 @@ section p{
 .hosting-content{
 	display: inline-grid;
 	margin: 20px;
-	width: 195px;
-	height: 200px;
+	width: 205px;
+	height: 170px;
 	background-color: white;
 	border-radius: 20px;
-	border: solid 2px white;
-	box-shadow: 0 4px 4px 0 rgba(129, 128, 128, 0.2), 0 6px 4px 0 rgba(129, 128, 128, 0.2);
+	border: solid 3px white;
+	box-shadow: 0 4px 4px 0 rgba(129, 128, 128, 0.2), 0 4px 4px 0 rgba(129, 128, 128, 0.2);
 }
 
 
 .hosting-img{
-	width: 195px;
+	width: 205px;
 	border-radius: 20px 20px 0 0;
-	height: 120px;
+	height: 90px;
 }
 
 
@@ -300,7 +301,7 @@ section p{
 }
 
 .load-more{
-	margin: 10px 20px 5px 40px;
+	margin: 60px 20px 5px 40px;
 }
 
 .activity{
@@ -311,7 +312,6 @@ section p{
 
 .grid{
 	display: flex;
-	width: 950px;
 }
 
 .activity-header{
@@ -329,8 +329,8 @@ section p{
 	background-color: white;
 	margin: 10px;
 	border-radius: 20px;
-	border: 2px solid white;
-	box-shadow: 0 4px 8px 0 rgba(129, 128, 128, 0.2);
+	border: 3px solid white;
+	box-shadow: 0 4px 4px 0 rgba(129, 128, 128, 0.2);
 }
 
 .activity-img{
@@ -349,17 +349,17 @@ section p{
 
 .activity-content-fort{
 	width: 280px;
-	height: 195px;
+	height: 200px;
 	background-color: white;
 	margin: 10px;
 	border-radius: 20px;
-	border: 2px solid white;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	border: 3px solid white;
+	box-shadow: 0 4px 4px 0 rgba(129, 128, 128, 0.2);
 }
 
 .activity-img-fort{
 	width: 280px;
-	height: 150px;
+	height: 155px;
 	border-radius: 20px 20px 0 0;
 }
 
@@ -373,17 +373,17 @@ section p{
 
 .activity-content-frioul{
 	width: 280px;
-	height: 151px;
+	height: 156px;
 	background-color: white;
 	margin: 10px;
 	border-radius: 20px;
-	border: 2px solid white;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	border: 3px solid white;
+	box-shadow: 0 4px 4px 0 rgba(129, 128, 128, 0.2);
 }
 
 .activity-img-frioul{
 	width: 280px;
-	height: 106px;
+	height: 110px;
 	border-radius: 20px 20px 0 0;
 }
 
@@ -400,8 +400,8 @@ section p{
 	background-color: white;
 	margin: 10px;
 	border-radius: 20px;
-	border: 2px solid white;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	border: 3px solid white;
+	box-shadow: 0 4px 4px 0 rgba(129, 128, 128, 0.2);
 }
 
 .activity-img-cal{
@@ -424,8 +424,8 @@ section p{
 	background-color: white;
 	margin: 10px;
 	border-radius: 20px;
-	border: 2px solid white;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	border: 3px solid white;
+	box-shadow: 0 4px 4px 0 rgba(129, 128, 128, 0.2);
 }
 
 .activity-img-nd{
@@ -443,17 +443,17 @@ section p{
 
 .activity-content-pl{
 	width: 280px;
-	height: 180px;
+	height: 190px;
 	background-color: white;
 	margin: 10px;
 	border-radius: 20px;
-	border: 2px solid white;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	border: 3px solid white;
+	box-shadow: 0 4px 4px 0 rgba(129, 128, 128, 0.2);
 }
 
 .activity-img-pl{
 	width: 280px;
-	height: 136px;
+	height: 144px;
 	border-radius: 20px 20px 0 0;
 }
 
@@ -485,18 +485,162 @@ section p{
 	list-style-type: none;
 }
 
-@media (max-width: 355px) {
-	header{
-		display: inline;
-	}	
+footer{
+	width: 1216px;
+}
+
+
+@media (max-width: 799px) {
+
+	.boby{
+		width: 799px;
+		max-height: 7900px;
+		margin: 15px;
+	}
+
+	.logo-header{
+		padding: 20px 60px 0 20px;
+	}
+	.nav-bar{
+
+	}
 
 	.nav-link{
 		border-top: 2px solid black;
 		padding: 21px;
 	}
-	.sub-link{
-		display: ruby;
+
+	.filters.title{
+		margin: 15px 5px 0 0;
 	}
+
+	.filters{
+		flex-direction: column;
+		height: 398px;
+		width: 474px;
+
+
+	}
+	.list-filters{
+		width: 210px;
+
+	}
+
+	.main-block{
+		flex-direction: column;
+		height: 2140px;
+		width: 485px;
+		margin: 15px;
+	}
+	.most-popular{
+		margin: 0px;
+	}
+
+	.hosting-block{
+		width: 450px;
+		margin: 15px 0 0 0;
+		height: 1670px;
+		background-color: white;
+	}
+	.hosting-content{
+		margin: 15px 30px 15px 0;
+		width: 460px;
+		height: 215px;
+
+	}
+
+	.hosting-img{
+		width: 460px;
+		height: 130px;
+	}
+	.load-more{
+		margin: 30px 20px 5px 40px;
+	}
+	.activity{
+		height: 1710px;
+		margin: 150px 25px 20px 20px;
+
+	}
+	.activity-content{
+		width: 460px;
+		height: 260px;
+		margin: 10px 10px 10px 0;
+
+	}
+	.activity-img{
+		width: 460px;
+		height: 200px;
+		border-radius: 20px 20px 0 0;
+	}
+
+	.activity-content-fort{
+		width: 460px;
+		height: 260px;
+		margin: 10px 10px 10px 0;
+
+	}
+	.activity-img-fort{
+		width: 460px;
+		height: 200px;
+		border-radius: 20px 20px 0 0;
+	}
+
+	.activity-content-frioul{
+		width: 460px;
+		height: 260px;
+		margin: 10px 10px 10px 0;
+
+	}
+	.activity-img-frioul{
+		width: 460px;
+		height: 200px;
+		border-radius: 20px 20px 0 0;
+	}
+
+	.activity-content-cal{
+		width: 460px;
+		height: 260px;
+		margin: 10px 10px 10px 0;
+
+	}
+	.activity-img-cal{
+		width: 460px;
+		height: 200px;
+		border-radius: 20px 20px 0 0;
+	}
+	.activity-content-nd{
+		width: 460px;
+		height: 260px;
+		margin: 10px 10px 10px 0;
+
+	}
+	.activity-img-nd{
+		width: 460px;
+		height: 200px;
+		border-radius: 20px 20px 0 0;
+	}
+	.activity-content-pl{
+		width: 460px;
+		height: 260px;
+		margin: 10px 10px 10px 0;
+
+	}
+	.activity-img-pl{
+		width: 460px;
+		height: 200px;
+		border-radius: 20px 20px 0 0;
+	}
+	.grid{
+		flex-direction: column;
+		height: 1608px;
+		width: 450px;
+	}
+	.footer-content{
+		flex-direction: column;
+	}
+
+
+
 }
 
 
