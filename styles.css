@@ -420,7 +420,7 @@ section p{
 /* notre dame*/
 
 .activity-content-nd{
-	width: 280px;
+	width: 315px;
 	height: 165px;
 	background-color: white;
 	margin: 10px;
@@ -430,7 +430,7 @@ section p{
 }
 
 .activity-img-nd{
-	width: 280px;
+	width: 315px;
 	height: 120px;
 	border-radius: 20px 20px 0 0;
 }
@@ -443,7 +443,7 @@ section p{
 /* parc*/
 
 .activity-content-pl{
-	width: 280px;
+	width: 315px;
 	height: 190px;
 	background-color: white;
 	margin: 10px;
@@ -453,7 +453,7 @@ section p{
 }
 
 .activity-img-pl{
-	width: 280px;
+	width: 315px;
 	height: 144px;
 	border-radius: 20px 20px 0 0;
 }
