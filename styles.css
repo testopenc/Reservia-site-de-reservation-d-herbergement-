@@ -6,8 +6,7 @@
 body{
 	font-family: "Raleway", sans-serif ;
 	margin: 0px;
-	display: block;
-	width: 825px;
+	
 }
 
 img{
@@ -26,7 +25,7 @@ img{
 }
 
 .logo-header{
-	padding : 20px 710px 0 20px;
+	padding : 20px 680px 0 20px;
 }
 
 .nav-link-h{
@@ -490,47 +489,47 @@ footer{
 	width: 1216px;
 }
 
-
-
-@media (max-width: 600px ) {
-
-	header{
-
+@media screen and (max-width: 669px) {
+	.header{
+		display: inline;
 	}
-
-	.boby{
-		width: 80%;
-		max-height: 7900px;
-		margin: 15px;
-	}
-
 	.logo-header{
-		padding: 20px 60px 0 20px;
+		width: 265px;
+		margin: 20px;
+		padding: 0;
+		
+
 	}
 	.nav-bar{
+		width: 1255px;
+		
+
+	}
+	.nav-link-h{
+		width: 567px;
+		font-size: 40px;
+		padding: 30px;
+		border-top: none;
+		border-bottom: 8px solid #0065FC;
+		
+
+	}
+	.nav-link{
+		font-size: 40px;
+		padding: 30px;
+		border-bottom: 5px solid rgb(182, 178, 178);
+		width: 548px;
+
+	}
+	.sub-link{
+		width: 300px;
+		
 
 	}
 	
-	.nav-link{
-		border-top: 2px solid black;
-		padding: 21px;
-	}
+}
 
-	.filters.title{
-		margin: 15px 5px 0 0;
-	}
-
-	.filters{
-		flex-direction: column;
-		height: 398px;
-		width: 474px;
-
-
-	}
-	.list-filters{
-		width: 210px;
-
-	}
+@media screen and (max-width: 400px) {
 
 	.main-block{
 		flex-direction: column;
@@ -648,9 +647,3 @@ footer{
 
 
 }
-
-
-
-
-
-
