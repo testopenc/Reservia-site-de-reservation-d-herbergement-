@@ -589,6 +589,88 @@ footer{
 	.hosting-title{
 		font-size: 74%;
 	}
+	.activity-title{
+		font-size: 99%;
+	}
+	.grid{
+		flex-direction: column;
+	}
+	.activity{
+		height: auto;
+	}
+
+	.activity-content{
+		width: 278px;
+		height: 20%;
+		margin: 15px;
+
+	}
+	.activity-img{
+		width: 278px;
+		height: 20%;
+		border-radius: 20px 20px 0 0;
+	}
+
+	.activity-content-fort{
+		width: 278px;
+		height: 20%;
+		margin: 15px;
+
+	}
+	.activity-img-fort{
+		width: 278px;
+		height: 189px;
+		border-radius: 20px 20px 0 0;
+	}
+
+	.activity-content-frioul{
+		width: 278px;
+		height: 20%;
+		margin: 15px;
+
+	}
+	.activity-img-frioul{
+		width: 278px;
+		height: 20%;
+		border-radius: 20px 20px 0 0;
+	}
+
+	.activity-content-cal{
+		width: 278px;
+		height: 20%;
+		margin: 15px;
+
+	}
+	.activity-img-cal{
+		width: 278px;
+		height: 20%;
+		border-radius: 20px 20px 0 0;
+	}
+	.activity-content-nd{
+		width: 278px;
+		height: 20%;
+		margin: 15px;
+
+	}
+	.activity-img-nd{
+		width: 278px;
+		height: 20%;
+		border-radius: 20px 20px 0 0;
+	}
+	.activity-content-pl{
+		width: 278px;
+		height: 20%;
+		margin: 15px;
+
+	}
+	.activity-img-pl{
+		width: 278px;
+		height: 20%;
+		border-radius: 20px 20px 0 0;
+	}
+	.footer-content{
+		flex-direction: column;
+	}
 	
 	}
 
@@ -649,75 +731,7 @@ footer{
 		margin: 150px 25px 20px 20px;
 
 	}
-	.activity-content{
-		width: 460px;
-		height: 260px;
-		margin: 10px 10px 10px 0;
 
-	}
-	.activity-img{
-		width: 460px;
-		height: 200px;
-		border-radius: 20px 20px 0 0;
-	}
-
-	.activity-content-fort{
-		width: 460px;
-		height: 260px;
-		margin: 10px 10px 10px 0;
-
-	}
-	.activity-img-fort{
-		width: 460px;
-		height: 200px;
-		border-radius: 20px 20px 0 0;
-	}
-
-	.activity-content-frioul{
-		width: 460px;
-		height: 260px;
-		margin: 10px 10px 10px 0;
-
-	}
-	.activity-img-frioul{
-		width: 460px;
-		height: 200px;
-		border-radius: 20px 20px 0 0;
-	}
-
-	.activity-content-cal{
-		width: 460px;
-		height: 260px;
-		margin: 10px 10px 10px 0;
-
-	}
-	.activity-img-cal{
-		width: 460px;
-		height: 200px;
-		border-radius: 20px 20px 0 0;
-	}
-	.activity-content-nd{
-		width: 460px;
-		height: 260px;
-		margin: 10px 10px 10px 0;
-
-	}
-	.activity-img-nd{
-		width: 460px;
-		height: 200px;
-		border-radius: 20px 20px 0 0;
-	}
-	.activity-content-pl{
-		width: 460px;
-		height: 260px;
-		margin: 10px 10px 10px 0;
-
-	}
-	.activity-img-pl{
-		width: 460px;
-		height: 200px;
-		border-radius: 20px 20px 0 0;
-	}
 	.grid{
 		flex-direction: column;
 		height: 1608px;
