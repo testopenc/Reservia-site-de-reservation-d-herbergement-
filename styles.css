@@ -122,6 +122,9 @@ section search-section{
 	color: white;
 	width: 100px;
 }
+.search-icon{
+	display: none;
+}
 
 .filters-content{
 	width: 1100px;
@@ -328,7 +331,6 @@ section p{
 
 .activity{
 	margin: 20px 15px 5px 5px;
-
 }
 
 .grid{
@@ -532,7 +534,6 @@ footer{
 		border-bottom: 5px solid #0065FC;
 		padding: 25px;
 		width: 50%;
-
 	}
 	.nav-link{
 		border-bottom: 5px solid rgb(182, 178, 178);
@@ -552,25 +553,45 @@ footer{
 		top: 20%;
 		right: 9%;
 	}
+	.search-content{
+		margin: 15px;
+	}
+	#search-button{
+		display: none;
+
+	}
+	.search-icon{
+		background-color: #0065fc;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 50px;
+		border-radius: 0 9px 9px 0;
+	}
+
 
 	.filters{
 		display: flex;
 		flex-wrap: wrap;
-		width: 37%;
+		width: 30%;
 		padding: 5px;
 	}
 	.list-filters{
-		width: 165px;
+		width: 136px;
 		margin: 0 0 15px 10px;
+		font-size: 12px;
+		height: 51px;
 
 	}
 	.list-filters-f{
-		width: 120px;
+		width: 103px;
 		margin: 0 0 15px 10px;
+		font-size: 12px;
 	}
 	.list-filters-aa{
-		width: 206px;
+		width: 167px;
 		margin: 0 0 15px 10px;
+		font-size: 12px;
 	}
 	.main-block{
 		flex-direction: column;
@@ -616,7 +637,7 @@ footer{
 	.hosting-content{
 		display: flex;
 		flex-direction: column;
-		margin: 10px;
+		margin: 20px 10px 0 10px;
 		width: 28%;
 	}
 	.hosting-title{
@@ -650,7 +671,7 @@ footer{
 	.activity-content{
 		width: 98%;
 		height: 20%;
-		margin: 10px 5px;
+		margin: 20px 5px;
 
 	}
 	.activity-img{
@@ -662,7 +683,7 @@ footer{
 	.activity-content-fort{
 		width: 98%;
 		height: 20%;
-		margin: 10px 5px;
+		margin: 20px 5px;
 	}
 	.activity-img-fort{
 		width: 100%;
@@ -673,7 +694,7 @@ footer{
 	.activity-content-frioul{
 		width: 98%;
 		height: 20%;
-		margin: 10px 5px;
+		margin: 20px 5px;
 	}
 	.activity-img-frioul{
 		width: 100%;
@@ -684,7 +705,7 @@ footer{
 	.activity-content-cal{
 		width: 98%;
 		height: 20%;
-		margin: 10px 5px;
+		margin: 20px 5px;
 
 	}
 	.activity-img-cal{
@@ -695,7 +716,7 @@ footer{
 	.activity-content-nd{
 		width: 98%;
 		height: 20%;
-		margin: 10px 5px;
+		margin: 20px 5px;
 
 	}
 	.activity-img-nd{
@@ -706,7 +727,7 @@ footer{
 	.activity-content-pl{
 		width: 98%;
 		height: 20%;
-		margin: 10px 5px;
+		margin: 20px 5px;
 
 	}
 	.activity-img-pl{
