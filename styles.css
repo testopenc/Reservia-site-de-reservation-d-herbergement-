@@ -1,22 +1,23 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
 
-
+header{
+	display: flex;
+	position: relative;
+}
 body{
 	font-family: "Raleway", sans-serif ;
 	margin: 0px;
-	display: block;
-	width: 825px;
+	
 }
 
 img{
 	object-fit: cover;
 }
 
-header{
- 	display: flex;
-	height: 60px;
+
+.nav-bar-sub{
+	flex-direction: row-reverse;
 }
 
 .nav-bar{
@@ -26,12 +27,14 @@ header{
 }
 
 .logo-header{
-	padding : 20px 710px 0 20px;
+	padding : 20px;
+	margin-right: 65%;
+
 }
 
 .nav-link-h{
 	color: #0065FC;
-	padding: 20px;
+	padding: 20px 40px;
 	text-align: center;
 	border-top: 3px solid #0065FC;
 	text-decoration: none;
@@ -39,20 +42,23 @@ header{
 }
 
 .nav-link{
- 	padding: 50px;
+ 	padding: 20px 40px;
 	color: black;
 	text-decoration: none;
+	border-top: 3px solid transparent;
 
 }
 
 .sub-link{
 	display: flex;
 	align-items: center;
-	padding-left: 30px;
+	padding-left: 40px;
 	color:#0065FC;
 	text-decoration: none;
 	border-top: 3px solid white;
-	
+	position: absolute;
+	top: 21px;
+	right: 2%;
 }
 
 section search-section{
@@ -117,11 +123,6 @@ section search-section{
 	width: 100px;
 }
 
-.main-block{
-	width: 1315px;
-
-}
-
 .filters-content{
 	width: 1100px;
 }
@@ -143,6 +144,22 @@ section search-section{
 	border: 1px solid #DEEBFF;
 	border-radius: 30px;
 	
+}
+
+.list-filters-f{
+	margin: 20px;
+	list-style-type: none;
+	padding-right: 20px;
+	border: 1px solid #DEEBFF;
+	border-radius: 30px;
+}
+
+.list-filters-aa{
+	margin: 20px;
+	list-style-type: none;
+	padding-right: 20px;
+	border: 1px solid #DEEBFF;
+	border-radius: 30px;
 }
 
 .log-filters{
@@ -176,23 +193,26 @@ section search-section{
 .main-block{
 	display: flex;
 	flex-direction: row-reverse;
-	max-width: 1255px;
+
 }
 
 .most-popular{
-	width: 450px;
+	width: 500px;
 	height: 650px;
 	background-color: #F2F2F2;
 	border-radius: 20px;
-	margin: 20px 5px 5px 5px;
+	margin: 20px;
+	padding: 30px;
 }
 
 .most-pop-header{
-	margin: 10px;
+	display: flex;
+	height: 85px;
+	width: 100%;
 }
 
 .most-pop-title{
-	font-size: 0.9em;
+	font-size: 16.9px;
 	margin: 20px;
 }
 
@@ -203,12 +223,11 @@ section search-section{
 
 .most-pop-content{
 	display: flex;
-	height: 130px;
 	border-radius: 20px;
 	border: solid 3px white;
 	box-shadow: 0 4px 4px 0 rgba(129, 128, 128, 0.2), 0 6px 6px 0 rgba(129, 128, 128, 0.2);
-	margin: 35px 40px 25px 40px;
-	width: 335px;
+	margin: 15px 40px 25px 40px;
+	width: 72%;
 }
 
 .most-pop-img{
@@ -240,14 +259,17 @@ section p{
 
 .hosting-block{
 	background-color: #F2F2F2;
-	margin: 20px 15px 5px 20px;
-	width: 770px;
+	margin: 20px;
+	width: 1030px;
 	height: 650px;
 	border-radius: 20px;
+	padding: 30px;
 }
 
 .hosting-header{
-	margin: 10px 0 25px 0;
+	font-size: 18.9px;
+	display: flex;
+	height: 85px;
 
 }
 
@@ -260,8 +282,8 @@ section p{
 .hosting-content{
 	display: inline-grid;
 	margin: 20px;
-	width: 205px;
-	height: 170px;
+	width: 270px;
+	height: 180px;
 	background-color: white;
 	border-radius: 20px;
 	border: solid 3px white;
@@ -270,9 +292,9 @@ section p{
 
 
 .hosting-img{
-	width: 205px;
+	width: 270px;
 	border-radius: 20px 20px 0 0;
-	height: 90px;
+	height: 104px;
 }
 
 
@@ -306,7 +328,6 @@ section p{
 
 .activity{
 	margin: 20px 15px 5px 5px;
-	height: 500px;
 
 }
 
@@ -324,8 +345,8 @@ section p{
 /* port*/
 
 .activity-content{
-	width: 275px;
-	height: 370px;
+	width: 400px;
+	height: 420px;
 	background-color: white;
 	margin: 10px;
 	border-radius: 20px;
@@ -334,8 +355,8 @@ section p{
 }
 
 .activity-img{
-	width: 275px;
-	height: 325px;
+	width: 400px;
+	height: 370px;
 	border-radius: 20px 20px 0 0;
 }
 
@@ -348,8 +369,8 @@ section p{
 /*fort*/
 
 .activity-content-fort{
-	width: 280px;
-	height: 200px;
+	width: 380px;
+	height: 248px;
 	background-color: white;
 	margin: 10px;
 	border-radius: 20px;
@@ -358,8 +379,8 @@ section p{
 }
 
 .activity-img-fort{
-	width: 280px;
-	height: 155px;
+	width: 380px;
+	height: 198px;
 	border-radius: 20px 20px 0 0;
 }
 
@@ -372,7 +393,7 @@ section p{
 /* frioul*/
 
 .activity-content-frioul{
-	width: 280px;
+	width: 380px;
 	height: 156px;
 	background-color: white;
 	margin: 10px;
@@ -382,8 +403,8 @@ section p{
 }
 
 .activity-img-frioul{
-	width: 280px;
-	height: 110px;
+	width: 380px;
+	height: 107px;
 	border-radius: 20px 20px 0 0;
 }
 
@@ -395,8 +416,8 @@ section p{
 /* calanques*/
 
 .activity-content-cal{
-	width: 275px;
-	height: 370px;
+	width: 400px;
+	height: 420px;
 	background-color: white;
 	margin: 10px;
 	border-radius: 20px;
@@ -405,8 +426,8 @@ section p{
 }
 
 .activity-img-cal{
-	width: 275px;
-	height: 325px;
+	width: 400px;
+	height: 370px;
 	border-radius: 20px 20px 0 0;
 }
 
@@ -419,8 +440,8 @@ section p{
 /* notre dame*/
 
 .activity-content-nd{
-	width: 280px;
-	height: 165px;
+	width: 380px;
+	height: 197px;
 	background-color: white;
 	margin: 10px;
 	border-radius: 20px;
@@ -429,8 +450,8 @@ section p{
 }
 
 .activity-img-nd{
-	width: 280px;
-	height: 120px;
+	width: 380px;
+	height: 146px;
 	border-radius: 20px 20px 0 0;
 }
 
@@ -442,8 +463,8 @@ section p{
 /* parc*/
 
 .activity-content-pl{
-	width: 280px;
-	height: 190px;
+	width: 380px;
+	height: 207px;
 	background-color: white;
 	margin: 10px;
 	border-radius: 20px;
@@ -452,8 +473,8 @@ section p{
 }
 
 .activity-img-pl{
-	width: 280px;
-	height: 144px;
+	width: 380px;
+	height: 157px;
 	border-radius: 20px 20px 0 0;
 }
 
@@ -484,47 +505,226 @@ section p{
 .service ul{
 	list-style-type: none;
 }
-
 footer{
-	width: 1216px;
+	width: 1740px;
 }
 
-
-@media (max-width: 799px) {
-
-	.boby{
-		width: 799px;
-		max-height: 7900px;
-		margin: 15px;
+@media screen and (min-width: 320px) and (max-width: 520px) {
+	.header{
+		display: flex;
+		flex-direction: column;
+		position: relative;
 	}
-
 	.logo-header{
-		padding: 20px 60px 0 20px;
+		margin: 20px;
+		padding: 0;
+		width: 30%;
+	}
+	
+	.nav-bar-sub{
+		display: inline;
 	}
 	.nav-bar{
+		width: 100%;
+	}
+	.nav-link-h{
+		border-top: none;
+		border-bottom: 5px solid #0065FC;
+		padding: 25px;
+		width: 50%;
 
 	}
-
 	.nav-link{
-		border-top: 2px solid black;
-		padding: 21px;
+		border-bottom: 5px solid rgb(182, 178, 178);
+		width: 50%;
+		padding: 25px;
+		border-top: none;
+	}
+	.p-title{
+		font-size: 109%;
 	}
 
-	.filters.title{
-		margin: 15px 5px 0 0;
+	.sub-link{
+		justify-content: flex-end;
+		align-items: center;
+		font-size: 16px;
+		position: absolute;
+		top: 20%;
+		right: 9%;
 	}
 
 	.filters{
-		flex-direction: column;
-		height: 398px;
-		width: 474px;
-
-
+		display: flex;
+		flex-wrap: wrap;
+		width: 37%;
+		padding: 5px;
 	}
 	.list-filters{
-		width: 210px;
+		width: 165px;
+		margin: 0 0 15px 10px;
 
 	}
+	.list-filters-f{
+		width: 120px;
+		margin: 0 0 15px 10px;
+	}
+	.list-filters-aa{
+		width: 206px;
+		margin: 0 0 15px 10px;
+	}
+	.main-block{
+		flex-direction: column;
+	}
+	.most-popular{
+		margin: 0%;
+		padding: 0%;
+		width: 100%;
+		border-radius: 0%;
+	}
+
+	.most-pop-title{
+		font-size: 13px;
+		margin: 15px 10px;
+	}
+	.most-pop-content{
+		margin: 20px 10px 10px 10px;
+		width: 90%;
+		height: 23%;
+	}
+	.most-pop-img{
+		width: 46%;
+		height: 100%;
+	}
+	.most-pop-icon{
+		margin-left: 23%;
+		margin-top: 10%;
+		font-size: 19px;
+	}
+	.most-pop-txt{
+		width: 50%;
+		font-size: 80%;
+	}
+	.notation{
+		margin-top: 33%;
+	}
+	.hosting-block{
+		margin: 0%;
+		padding: 0%;
+		background-color: white;
+		height: auto;
+		}
+	.hosting-content{
+		display: flex;
+		flex-direction: column;
+		margin: 10px;
+		width: 28%;
+	}
+	.hosting-title{
+		font-size: 14px;
+		margin: 0 15px;
+	}
+	.hosting-img{
+		width: auto;
+	}
+	
+	.load-more{
+		margin: 15px 0 0 15px;
+		font-size: 15px;
+	}
+	.grid{
+		flex-direction: column;
+	}
+	.activity-header{
+		height: 48px;
+	}
+
+	.activity{
+		height: auto;
+	}
+
+	.activity-title{
+		font-size: 14px;
+		margin: 0;
+		padding: 7px;
+	}
+	.activity-content{
+		width: 98%;
+		height: 20%;
+		margin: 10px 5px;
+
+	}
+	.activity-img{
+		width: 100%;
+		height: 80px;
+		border-radius: 20px 20px 0 0;
+	}
+
+	.activity-content-fort{
+		width: 98%;
+		height: 20%;
+		margin: 10px 5px;
+	}
+	.activity-img-fort{
+		width: 100%;
+		height: 80px;
+		border-radius: 20px 20px 0 0;
+	}
+
+	.activity-content-frioul{
+		width: 98%;
+		height: 20%;
+		margin: 10px 5px;
+	}
+	.activity-img-frioul{
+		width: 100%;
+		height: 80px;
+		border-radius: 20px 20px 0 0;
+	}
+
+	.activity-content-cal{
+		width: 98%;
+		height: 20%;
+		margin: 10px 5px;
+
+	}
+	.activity-img-cal{
+		width: 100%;
+		height: 80px;
+		border-radius: 20px 20px 0 0;
+	}
+	.activity-content-nd{
+		width: 98%;
+		height: 20%;
+		margin: 10px 5px;
+
+	}
+	.activity-img-nd{
+		width: 100%;
+		height: 80px;
+		border-radius: 20px 20px 0 0;
+	}
+	.activity-content-pl{
+		width: 98%;
+		height: 20%;
+		margin: 10px 5px;
+
+	}
+	.activity-img-pl{
+		width: 100%;
+		height: 80px;
+		border-radius: 20px 20px 0 0;
+	}
+	.footer-content{
+		flex-direction: column;
+	}
+	
+	}
+
+	@media screen and (min-width: 621px) and (max-width: 800px){
+
+}
+
+@media screen and (min-width: 801) and (max-width: 1200px) {
 
 	.main-block{
 		flex-direction: column;
@@ -534,8 +734,11 @@ footer{
 	}
 	.most-popular{
 		margin: 0px;
+		width: 1239px;
 	}
-
+	.most-pop-header{
+		width: 1140px;
+	}
 	.hosting-block{
 		width: 450px;
 		margin: 15px 0 0 0;
@@ -561,75 +764,7 @@ footer{
 		margin: 150px 25px 20px 20px;
 
 	}
-	.activity-content{
-		width: 460px;
-		height: 260px;
-		margin: 10px 10px 10px 0;
 
-	}
-	.activity-img{
-		width: 460px;
-		height: 200px;
-		border-radius: 20px 20px 0 0;
-	}
-
-	.activity-content-fort{
-		width: 460px;
-		height: 260px;
-		margin: 10px 10px 10px 0;
-
-	}
-	.activity-img-fort{
-		width: 460px;
-		height: 200px;
-		border-radius: 20px 20px 0 0;
-	}
-
-	.activity-content-frioul{
-		width: 460px;
-		height: 260px;
-		margin: 10px 10px 10px 0;
-
-	}
-	.activity-img-frioul{
-		width: 460px;
-		height: 200px;
-		border-radius: 20px 20px 0 0;
-	}
-
-	.activity-content-cal{
-		width: 460px;
-		height: 260px;
-		margin: 10px 10px 10px 0;
-
-	}
-	.activity-img-cal{
-		width: 460px;
-		height: 200px;
-		border-radius: 20px 20px 0 0;
-	}
-	.activity-content-nd{
-		width: 460px;
-		height: 260px;
-		margin: 10px 10px 10px 0;
-
-	}
-	.activity-img-nd{
-		width: 460px;
-		height: 200px;
-		border-radius: 20px 20px 0 0;
-	}
-	.activity-content-pl{
-		width: 460px;
-		height: 260px;
-		margin: 10px 10px 10px 0;
-
-	}
-	.activity-img-pl{
-		width: 460px;
-		height: 200px;
-		border-radius: 20px 20px 0 0;
-	}
 	.grid{
 		flex-direction: column;
 		height: 1608px;
@@ -642,9 +777,3 @@ footer{
 
 
 }
-
-
-
-
-
-
