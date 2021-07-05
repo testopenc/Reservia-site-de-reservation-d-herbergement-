@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
 
-
+header{
+	display: flex;
+}
 body{
 	font-family: "Raleway", sans-serif ;
 	margin: 0px;
@@ -12,13 +14,8 @@ img{
 	object-fit: cover;
 }
 
-.header{
- 	display: flex;
-	height: 60px;
-}
 
 .nav-bar-sub{
-	display: flex;
 	flex-direction: row-reverse;
 }
 
@@ -145,6 +142,22 @@ section search-section{
 	
 }
 
+.list-filters-f{
+	margin: 20px;
+	list-style-type: none;
+	padding-right: 20px;
+	border: 1px solid #DEEBFF;
+	border-radius: 30px;
+}
+
+.list-filters-aa{
+	margin: 20px;
+	list-style-type: none;
+	padding-right: 20px;
+	border: 1px solid #DEEBFF;
+	border-radius: 30px;
+}
+
 .log-filters{
 	background-color:#DEEBFF;
 	color: #0065fc;
@@ -211,7 +224,7 @@ section search-section{
 	border: solid 3px white;
 	box-shadow: 0 4px 4px 0 rgba(129, 128, 128, 0.2), 0 6px 6px 0 rgba(129, 128, 128, 0.2);
 	margin: 15px 40px 25px 40px;
-	width: 365px;
+	width: 72%;
 }
 
 .most-pop-img{
@@ -494,13 +507,16 @@ footer{
 	width: 1740px;
 }
 
-@media screen and (min-width: 320px) and (max-width: 669px) {
+@media screen and (min-width: 320px) and (max-width: 520px) {
 	.header{
-		display: inline;
+		display: flex;
+		flex-direction: column;
+		position: relative;
 	}
 	.logo-header{
-		margin: 30px;
+		margin: 20px;
 		padding: 0;
+		width: 30%;
 	}
 	
 	.nav-bar-sub{
@@ -525,24 +541,34 @@ footer{
 	.p-title{
 		font-size: 109%;
 	}
+
 	.sub-link{
-		width: 1602px;
 		justify-content: flex-end;
 		align-items: center;
-		font-size: 28px;
-	}
-	.filters-content{
-		height: 400px;
+		font-size: 16px;
+		position: absolute;
+		top: 20%;
+		right: 9%;
 	}
 
 	.filters{
-		flex-direction: column;
-		display: inline;
+		display: flex;
+		flex-wrap: wrap;
+		width: 37%;
+		padding: 5px;
 	}
 	.list-filters{
-		width: 19%;
-		margin: 10px;
+		width: 165px;
+		margin: 0 0 15px 10px;
 
+	}
+	.list-filters-f{
+		width: 120px;
+		margin: 0 0 15px 10px;
+	}
+	.list-filters-aa{
+		width: 206px;
+		margin: 0 0 15px 10px;
 	}
 	.main-block{
 		flex-direction: column;
@@ -674,21 +700,8 @@ footer{
 	
 	}
 
-	@media screen and (min-width: 670px) and (max-width: 800px){
-		.title-content{
-			margin: 35px 15px;
-			width: 1046px;
-		}
+	@media screen and (min-width: 621px) and (max-width: 800px){
 
-		.p-title{
-			font-size: 50px;
-			width: 720px;
-
-		}
-		.sub-title{
-			font-size: 40px;
-
-		}
 }
 
 @media screen and (min-width: 801) and (max-width: 1200px) {
