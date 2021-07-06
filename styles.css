@@ -511,7 +511,7 @@ footer{
 	width: 1740px;
 }
 
-@media screen and (min-width: 320px) and (max-width: 520px) {
+@media screen and (min-width: 320px) and (max-width: 525px) {
 	.header{
 		display: flex;
 		flex-direction: column;
@@ -555,10 +555,14 @@ footer{
 	}
 	.search-content{
 		margin: 15px;
+		width: 100%;
 	}
 	#search-button{
 		display: none;
 
+	}
+	.search-bar{
+		width: 52%;
 	}
 	.search-icon{
 		background-color: #0065fc;
@@ -566,7 +570,9 @@ footer{
 		align-items: center;
 		justify-content: center;
 		width: 50px;
-		border-radius: 0 9px 9px 0;
+		border-radius: 15px;
+		height: 50px;
+		color: white;
 	}
 
 
@@ -602,6 +608,9 @@ footer{
 		width: 100%;
 		border-radius: 0%;
 	}
+	.most-pop-header{
+		height: 65px;
+	}
 
 	.most-pop-title{
 		font-size: 13px;
@@ -633,15 +642,20 @@ footer{
 		padding: 0%;
 		background-color: white;
 		height: auto;
+		width: 100%;
 		}
+	.hosting-header{
+		height: 35px;
+		margin-top: 25px;
+	}
 	.hosting-content{
 		display: flex;
 		flex-direction: column;
 		margin: 20px 10px 0 10px;
-		width: 28%;
+		width: 90%;
 	}
 	.hosting-title{
-		font-size: 14px;
+		font-size: 13px;
 		margin: 0 15px;
 	}
 	.hosting-img{
@@ -654,6 +668,7 @@ footer{
 	}
 	.grid{
 		flex-direction: column;
+		margin-bottom: 25px;
 	}
 	.activity-header{
 		height: 48px;
@@ -664,7 +679,7 @@ footer{
 	}
 
 	.activity-title{
-		font-size: 14px;
+		font-size: 16px;
 		margin: 0;
 		padding: 7px;
 	}
@@ -741,7 +756,7 @@ footer{
 	
 	}
 
-	@media screen and (min-width: 621px) and (max-width: 800px){
+	@media screen and (min-width: 426px) and (max-width: 530px){
 
 }
 
