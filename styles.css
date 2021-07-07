@@ -61,6 +61,7 @@ img{
 	right: 2%;
 }
 
+
 section search-section{
 	margin: 15px;
 } 
@@ -260,7 +261,7 @@ section p{
 
 }
 
-.hosting-block{
+#hosting-block{
 	background-color: #F2F2F2;
 	margin: 20px;
 	width: 1030px;
@@ -329,7 +330,7 @@ section p{
 	margin: 60px 20px 5px 40px;
 }
 
-.activity{
+#activity{
 	margin: 20px 15px 5px 5px;
 }
 
@@ -511,7 +512,7 @@ footer{
 	width: 1740px;
 }
 
-@media screen and (min-width: 320px) and (max-width: 525px) {
+@media screen and (min-width: 320px) and (max-width: 526px) {
 	.header{
 		display: flex;
 		flex-direction: column;
@@ -610,6 +611,7 @@ footer{
 	}
 	.most-pop-header{
 		height: 65px;
+		width: 100%;
 	}
 
 	.most-pop-title{
@@ -637,7 +639,7 @@ footer{
 	.notation{
 		margin-top: 33%;
 	}
-	.hosting-block{
+	#hosting-block{
 		margin: 0%;
 		padding: 0%;
 		background-color: white;
@@ -674,7 +676,7 @@ footer{
 		height: 48px;
 	}
 
-	.activity{
+	#activity{
 		height: auto;
 	}
 
@@ -756,60 +758,10 @@ footer{
 	
 	}
 
-	@media screen and (min-width: 426px) and (max-width: 530px){
-
+	@media screen and (min-width: 540px) and (max-width: 668px){
+		.logo-header{
+			margin-right: 24%;
+		}
 }
 
-@media screen and (min-width: 801) and (max-width: 1200px) {
 
-	.main-block{
-		flex-direction: column;
-		height: 2140px;
-		width: 485px;
-		margin: 15px;
-	}
-	.most-popular{
-		margin: 0px;
-		width: 1239px;
-	}
-	.most-pop-header{
-		width: 1140px;
-	}
-	.hosting-block{
-		width: 450px;
-		margin: 15px 0 0 0;
-		height: 1670px;
-		background-color: white;
-	}
-	.hosting-content{
-		margin: 15px 30px 15px 0;
-		width: 460px;
-		height: 215px;
-
-	}
-
-	.hosting-img{
-		width: 460px;
-		height: 130px;
-	}
-	.load-more{
-		margin: 30px 20px 5px 40px;
-	}
-	.activity{
-		height: 1710px;
-		margin: 150px 25px 20px 20px;
-
-	}
-
-	.grid{
-		flex-direction: column;
-		height: 1608px;
-		width: 450px;
-	}
-	.footer-content{
-		flex-direction: column;
-	}
-
-
-
-}
