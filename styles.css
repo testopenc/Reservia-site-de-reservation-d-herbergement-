@@ -8,6 +8,8 @@ header{
 body{
 	font-family: "Raleway", sans-serif ;
 	margin: 0px;
+	width: 100%;
+	height: auto;
 	
 }
 
@@ -128,7 +130,7 @@ section search-section{
 }
 
 .filters-content{
-	width: 1100px;
+	width: 100%;
 }
 
 .filters-title{
@@ -264,7 +266,7 @@ section p{
 #hosting-block{
 	background-color: #F2F2F2;
 	margin: 20px;
-	width: 1030px;
+	width: 100%;
 	height: 650px;
 	border-radius: 20px;
 	padding: 30px;
@@ -509,10 +511,10 @@ section p{
 	list-style-type: none;
 }
 footer{
-	width: 1740px;
+	width: 100%;
 }
 
-@media screen and (min-width: 320px) and (max-width: 526px) {
+@media screen and (min-width: 320px) and (max-width: 446px) {
 	.header{
 		display: flex;
 		flex-direction: column;
@@ -543,7 +545,7 @@ footer{
 		border-top: none;
 	}
 	.p-title{
-		font-size: 109%;
+		font-size: 1em;
 	}
 
 	.sub-link{
@@ -582,6 +584,7 @@ footer{
 		flex-wrap: wrap;
 		width: 30%;
 		padding: 5px;
+		width: 100%;
 	}
 	.list-filters{
 		width: 136px;
@@ -611,12 +614,13 @@ footer{
 	}
 	.most-pop-header{
 		height: 65px;
-		width: 100%;
+		align-items: center;
+		justify-content: space-between;
+	
 	}
 
 	.most-pop-title{
 		font-size: 13px;
-		margin: 15px 10px;
 	}
 	.most-pop-content{
 		margin: 20px 10px 10px 10px;
@@ -628,9 +632,8 @@ footer{
 		height: 100%;
 	}
 	.most-pop-icon{
-		margin-left: 23%;
-		margin-top: 10%;
 		font-size: 19px;
+		margin: 10%;
 	}
 	.most-pop-txt{
 		width: 50%;
@@ -758,10 +761,328 @@ footer{
 	
 	}
 
-	@media screen and (min-width: 540px) and (max-width: 668px){
+	@media screen and (min-width: 446px) and (max-width: 580px){
 		.logo-header{
-			margin-right: 24%;
+			margin-right: 1%;
 		}
-}
+		.nav-bar-sub{
+			padding: 0px;
+		}
+		.nav-link-h{
+			width: 25%;
+		}
+		.sub-link{
+			top: 95%;
+			right: 10%;
+		}
+		.search-content{
+			margin-left: 8%;
+		}
+		.filters{
+			display: flex;
+			flex-wrap: wrap;
+			width: 100%;
+		}
+		.main-block{
+			display: block;
+			margin: 10px;
+		}
+		.most-popular{
+			margin: 0;
+			padding: 0;
+			width: 100%;
+		}
+		.most-pop-img{
+			height: 140px;
+			width: 120px;
+		}
+		.most-pop-txt{
+			width: 100%;
+		}
+		#hosting-block{
+			margin: 0;
+			padding: 0;
+			margin-top: 20px;
+			width: 100%;
+			height: auto;
+		}
+		.hosting-grid{
+			display: flex;
+			flex-wrap: wrap;
+		}
+		.hosting-content{
+			width: 80%;
+			height: auto;
+			margin: 30px;
+		}
+		.hosting-img{
+			width: 100%;
+			height: 120px;
+		}
+		.hosting-content{
+			width: 75%;
+			height: auto;
+			margin-left: 46px;
+		}
+		.hosting-img{
+			height: 140px;
+		}
+		.hosting-text{
+			height: 64px;
+		}
+		#activity{
+			width: 100%;
+			height: auto;
+		}
+		.grid{
+			flex-direction: column;
+		}
+		.activity-content{
+			width: 90%;
+		}
+		.activity-img{
+			width: 100%;
+		}
+		.activity-content-fort{
+			width: 90% ;
+		}
+		.activity-img-fort{
+			width: 100%;
+		}
+		.activity-content-frioul{
+			width: 90%;
+		}
+		.activity-img-frioul{
+			width: 100%;
+		}
+		.activity-content-cal{
+			width: 90%;
+		}
+		.activity-img-cal{
+			width: 100%;
+		}
+		.activity-content-nd{
+			width: 90%;
+		}
+		.activity-img-nd{
+			width: 100%;
+		}
+		.activity-content-pl{
+			width: 90%;
+		}
+		.activity-img-pl{
+			width: 100%;
+		}
 
+		.footer-content{
+			width: 100%;
+			flex-direction: column;
+		}
+
+}
+@media screen and (min-width: 580px) and (max-width: 675px){
+	.logo-header{
+		margin-right: 7%;
+		margin-left: 10px;
+	}
+	.filters{
+		display: flex;
+		flex-wrap: wrap;
+		width: 100%;
+		height: auto;
+	}
+	.main-block{
+		width: 100%;
+		flex-wrap: wrap;
+	}
+	#hosting-block{
+		display: flex;
+		flex-wrap: wrap;
+		width: 100%;
+		height: auto;
+	}
+	.grid{
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.footer-content{
+		display: flex;
+		flex-wrap: wrap;
+	}
+	#hosting-block{
+		margin: 30px;
+		padding: 0;
+		margin-top: 20px;
+		width: 100%;
+		height: auto;
+	}
+	.hosting-grid{
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.hosting-content{
+		width: 80%;
+		height: auto;
+		margin: 30px;
+	}
+	.hosting-img{
+		width: 100%;
+		height: 120px;
+	}
+	.hosting-content{
+		width: 75%;
+		height: auto;
+		margin-left: 46px;
+	}
+	.hosting-img{
+		height: 140px;
+	}
+	.hosting-text{
+		height: 64px;
+	}
+	#activity{
+		width: 100%;
+		height: auto;
+	}
+	.grid{
+		flex-direction: column;
+	}
+	.activity-content{
+		width: 90%;
+	}
+	.activity-img{
+		width: 100%;
+	}
+	.activity-content-fort{
+		width: 90% ;
+	}
+	.activity-img-fort{
+		width: 100%;
+	}
+	.activity-content-frioul{
+		width: 90%;
+	}
+	.activity-img-frioul{
+		width: 100%;
+	}
+	.activity-content-cal{
+		width: 90%;
+	}
+	.activity-img-cal{
+		width: 100%;
+	}
+	.activity-content-nd{
+		width: 90%;
+	}
+	.activity-img-nd{
+		width: 100%;
+	}
+	.activity-content-pl{
+		width: 90%;
+	}
+	.activity-img-pl{
+		width: 100%;
+	}
+
+}
+@media screen and (min-width: 675px) and (max-width: 900px){
+	.logo-header{
+		margin-right: 25%;
+	}
+	.filters{
+		display: flex;
+		flex-wrap: wrap;
+		width: 100%;
+		height: auto;
+	}
+	.main-block{
+		width: 100%;
+		height: auto;
+	}
+	.most-popular{
+		width: 38%;
+		height: auto;
+		margin: 0 15px;
+	}
+	.most-pop-content{
+		width: 98%;
+		margin: 10px 0;
+		height: 185px;
+
+	}
+	.most-pop-title{
+		font-size: 13px;
+	}
+	.most-pop-img{
+		height: 185px;
+		width: 124px;
+	}
+	.most-pop-icon{
+		margin-top: 36px;
+		margin-left: 50px;
+	}
+	#hosting-block{
+		width: 39%;
+		height: auto;
+		margin: 0;
+	}
+	.hosting-header{
+		margin-top: 20px;
+	}
+	.hosting-title{
+		margin: 0;
+		font-size: 13px
+	}
+	.hosting-content{
+		margin: 10px 0;
+	}
+	.grid{
+		display: flex;
+		flex-wrap: wrap;
+		margin: 10px;
+	}
+	.activity-content{
+		width: 50%;
+	}
+	.activity-img{
+		width: 100%;
+	}
+	.activity-block{
+		width: 45%;
+	}
+	.activity-content-fort{
+		width: 100%;
+	}
+	.activity-img-fort{
+		width: 100%;
+	}
+	.activity-content-frioul{
+		width: 100%;
+	}
+	.activity-img-frioul{
+		width: 100%;
+	}
+	.activity-content-cal{
+		width: 48%;
+	}
+	.activity-img-cal{
+		width:100%;
+	}
+	.activity-block-s{
+		width: 47%;
+	}
+	.activity-content-nd{
+		width: 100%;
+	}
+	.activity-img-nd{
+		width: 100%;
+	}
+	.activity-content-pl{
+		width: 100%;
+	
+	}
+	.activity-img-pl{
+		width: 100%;
+	}
+}
 
