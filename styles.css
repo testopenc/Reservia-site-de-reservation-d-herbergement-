@@ -137,7 +137,7 @@ section search-section{
 
 .filters{
 	display: inline-flex;
-	width: 900px;
+
 }
 .list-filters:hover{
 	background-color: #DEEBFF;
@@ -208,8 +208,6 @@ section search-section{
 }
 
 .most-popular{
-	width: 500px;
-	height: 650px;
 	background-color: #F2F2F2;
 	border-radius: 20px;
 	margin: 20px;
@@ -237,14 +235,15 @@ section search-section{
 	border-radius: 20px;
 	border: solid 3px white;
 	box-shadow: 0 4px 4px 0 rgba(129, 128, 128, 0.2), 0 6px 6px 0 rgba(129, 128, 128, 0.2);
-	margin: 15px 40px 25px 40px;
-	width: 72%;
+	margin: 28px 40px 25px 40px;
+	width: 82%;
+	height: 25%;
 }
 
 .most-pop-img{
-	width: 150px;
+	width: 190px;
 	border-radius: 20px 0 0 20px;
-	height: 130px;
+	height: 213px;
 }
 
 .most-pop-txt{
@@ -272,7 +271,6 @@ section p{
 	background-color: #F2F2F2;
 	margin: 20px;
 	width: 100%;
-	height: 650px;
 	border-radius: 20px;
 	padding: 30px;
 }
@@ -293,8 +291,8 @@ section p{
 .hosting-content{
 	display: inline-grid;
 	margin: 20px;
-	width: 270px;
-	height: 180px;
+	width: 280px;
+	height: 230px;
 	background-color: white;
 	border-radius: 20px;
 	border: solid 3px white;
@@ -303,9 +301,9 @@ section p{
 
 
 .hosting-img{
-	width: 270px;
+	width: 280px;
 	border-radius: 20px 20px 0 0;
-	height: 104px;
+	height: 150px;
 }
 
 
@@ -334,7 +332,7 @@ section p{
 }
 
 .load-more{
-	margin: 60px 20px 5px 40px;
+	margin: 140px 20px 5px 40px;
 }
 
 #activity{
@@ -503,7 +501,7 @@ section p{
 }
 
 .service{
-	width: 332px;
+	width: 380px;
 	margin: 30px 30px 30px 5px;
 }
 
