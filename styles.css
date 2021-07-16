@@ -1120,6 +1120,8 @@ footer{
 		width: 100%;
 	}
 }
+/* Intermédiaire Tablet/ Laptop */
+
 @media screen and (min-width: 809px) and (max-width: 1028px){
 	
 	.logo-header{
@@ -1200,12 +1202,13 @@ footer{
 		flex-wrap: wrap;
 	}
 	.hosting-content{
-		width: 25%;
+		width: 28%;
 		margin: 20px 10px;
 		height: 174px;
+		display: block;
 	}
 	.hosting-img{
-		width: 70%;
+		width: 100%;
 		height: 110px;
 	}
 	.hosting-text{
@@ -1277,25 +1280,32 @@ footer{
 		margin: 0;
 	}
 }
-@media screen and (min-width: 1029px) and (max-width: 1600px){
+/* Laptop L */
+@media screen and (min-width: 1029px) and (max-width: 1399px){
 	.logo-header{
-		margin-right: 42%;
+		margin-right: 47%;
 	}
 	#hosting-block{
 		width: 64%;
 		padding: 0;
 		margin: 10px;
 	}
+	.hosting-grid{
+		display: flex;
+		flex-wrap: wrap;
+
+	}
 	.hosting-content{
-		width: 28%;
+		width: 27%;
 		margin: 10px;
 		height: 195px;
+		display: block;
 	}
 	.hosting-header{
 		font-size: 14px;
 	}
 	.hosting-img{
-		width: 90%;
+		width: 100%;
 		height: 118px;
 	}
 	.grid{
@@ -1312,6 +1322,7 @@ footer{
 	}
 	.most-pop-txt{
 		font-size: 14px;
+		width: 70%;
 	}
 	.most-pop-icon{
 		margin-left: 43px;
@@ -1379,4 +1390,104 @@ footer{
 		width: 100%;
 	}
 }
+/* Intermédiaire Laptop L vers 4K */
+
+@media screen and (min-width: 1400px) and (max-width: 1703px){
+	.logo-header{
+		margin-right: 56%;
+	}
+	.nav-link{
+		margin-left: 10px;
+	}
+	.main-block{
+		width: 100%;
+	}
+	.most-popular{
+		width: 30%;
+		padding: 0;
+	}
+	.most-pop-icon{
+		margin-left: 90px;
+	}
+	.most-pop-content{
+		width: 81%;
+		height: 152px;
+	}
+	.most-pop-img{
+		height: 153px;
+	}
+	.most-pop-txt{
+		font-size: 14px;
+	}
+	#hosting-block{
+		width: 65%;
+		padding: 0;
+	}
+	.hosting-grid{
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.hosting-content{
+		width: 27%;
+	}
+	.hosting-img{
+		width: 100%;
+	}
+	#activity{
+		width: 100%;
+
+	}
+	.grid{
+		width: 100%;
+	}
+	.activity-content{
+		width: 24%;
+	}
+	.activity-img{
+		width: 100%;
+	}
+	.activity-block{
+		width: 25%;
+	}
+	.activity-content-fort{
+		width: 94%;
+	}
+	.activity-img-fort{
+		width: 100%;
+	}
+	.activity-content-frioul{
+		width: 94%;
+	}
+	.activity-img-frioul{
+		width: 100%;
+	}
+	.activity-content-cal{
+		width: 22%;
+	}
+	.activity-img-cal{
+		width: 100%;
+	}
+	.activity-block-s{
+		width: 25%;
+	}
+	.activity-content-nd{
+		width: 94%;
+	}
+	.activity-img-nd{
+		width: 100%;
+	}
+	.activity-content-pl{
+		width: 94%;
+	}
+	.activity-img-pl{
+		width: 100%;
+	}
+ }
+ /* 4k */
+	@media screen and (min-width: 1704px) and (max-width: 2560px){
+
+	}
+
+
+
 
