@@ -38,9 +38,6 @@ img{
 	text-decoration: none;
 	border-top: 3px solid transparent;
 }
-.nav-link:hover{
-	border-top: 3px solid #0065FC;
-}
 .sub-link{
 	display: flex;
 	align-items: center;
@@ -1081,11 +1078,11 @@ footer{
 	.most-pop-content{
 		margin: 15px;
 		width: 85%;
-		height: 120px;
+		height: 130px;
 	}
 	.most-pop-img{
 		width: 80px;
-		height: 119px;
+		height: 130px;
 	}
 	.most-pop-txt{
 		font-size: 13px;
@@ -1299,6 +1296,7 @@ footer{
 	}
 	.nav-link{
 		width: 100px;
+		margin-left: 45px;
 	}
 	.main-block{
 		width: 100%;
