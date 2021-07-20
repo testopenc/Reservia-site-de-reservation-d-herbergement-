@@ -49,6 +49,9 @@ img{
 	top: 21px;
 	right: 4%;
 }
+.sub-link:hover,.nav-link:hover{
+	transform:scale(1.05) translateY(-2px);
+}
 section search-section{
 	margin: 15px;
 } 
@@ -218,32 +221,26 @@ section search-section{
 .most-clicable:visited{
 	color: black;
 }
-
 .most-pop-img{
 	width: 127px;
 	border-radius: 20px 0 0 20px;
 	height: 213px;
 }
-
 .most-pop-txt{
 	background-color: white;
 	border-radius: 0 20px 20px 0;
 	padding-left: 15px;
 	width: 100%;
 }
-
 .most-pop-txt h3{
 	margin-top: 5px;
 }
-
 .notation{
 	color: #0065fc;
 }
-
 section p{
 	color: rgb(133, 127, 127);
 }
-
 #hosting-block{
 	background-color: #F2F2F2;
 	margin: 20px;
@@ -251,19 +248,15 @@ section p{
 	border-radius: 20px;
 	padding: 30px;
 }
-
 .hosting-header{
 	font-size: 18.9px;
 	display: flex;
 	height: 85px;
 }
-
 .hosting-title{
 	font-size: 0.9em;
 	margin: 20px;
 }
-
-
 .hosting-content{
 	display: inline-grid;
 	margin: 20px;
@@ -319,9 +312,13 @@ section p{
 .act-clicable:hover{
 	cursor: pointer;
 	transform:scale(1.05) translateY(-2px);
+	color: black;
 }
 .act-clicable:visited{
 	color: black;
+}
+.activity-content-fort:hover,.activity-content-frioul:hover,.activity-content-pl:hover,.activity-content-nd:hover{
+	transform:scale(1.05) translateY(-2px);
 }
 .grid{
 	display: flex;
@@ -354,7 +351,6 @@ section p{
 .activity-txt{
 	font-size: 0.7em;
 	margin: 5px 5px 5px 15px;
-
 }
 
 /*fort*/
@@ -1002,7 +998,7 @@ footer{
 		width: 100%;
 	}
 	.activity-block{
-		width: 51%;
+		width: 46%;
 	}
 	.activity-content-fort,.activity-content-frioul,.activity-content-nd{
 		width: 100%;
@@ -1011,7 +1007,7 @@ footer{
 		width: 94%;
 	}
 	.activity-block-s{
-		width: 51%;
+		width: 46%;
 	}
 	.activity-content-pl{
 		width: 100%;
