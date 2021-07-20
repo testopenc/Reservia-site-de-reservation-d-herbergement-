@@ -213,6 +213,7 @@ section search-section{
 .most-clicable{
 	display: flex;
 	text-decoration: none;
+	color: black;
 }
 .most-clicable:hover{
 	cursor: pointer;
@@ -271,6 +272,7 @@ section p{
 	display: flex;
 	text-decoration: none;
 	width: 25%;
+	color: black;
 }
 .host-clicable:hover{
 	cursor: pointer;
@@ -308,6 +310,7 @@ section p{
 }
 .act-clicable{
 	text-decoration: none;
+	color: black;
 }
 .act-clicable:hover{
 	cursor: pointer;
