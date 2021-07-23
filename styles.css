@@ -1234,7 +1234,7 @@ footer{
 
 @media screen and (min-width: 1400px) and (max-width: 1718px){
 	.logo-header{
-		margin-right: 52%;
+		margin-right: 55%;
 	}
 	.nav-link{
 		width: 100px;
@@ -1256,10 +1256,11 @@ footer{
 	}
 	.most-pop-img{
 		height: 153px;
+		width: 39%;
 	}
 	.most-pop-txt{
 		font-size: 14px;
-		width: 100%;
+		width: 58%%;
 	}
 	#hosting-block{
 		width: 65%;
