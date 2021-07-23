@@ -838,6 +838,9 @@ footer{
 	.activity-img,.activity-img-fort,.activity-img-frioul,.activity-img-cal,.activity-img-nd,.activity-img-pl{
 		width: 100%;
 	}
+	.activity-block,.activity-block-s{
+		width: 100%;
+	}
 
 }
 
@@ -857,9 +860,10 @@ footer{
 		height: auto;
 	}
 	.main-block{
-		width: 100%;
+		width: 97%;
 		height: auto;
 		display: block;
+		margin: 10px;
 	}
 	.most-popular{
 		width: 100%;
@@ -1178,7 +1182,8 @@ footer{
 		width: 100%;
 	}
 	.grid{
-		width: 100%;
+		width: 99%;
+		padding: 0;
 	}
 	.activity-content{
 		width: 88%;
