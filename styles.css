@@ -70,7 +70,6 @@ section search-section{
 	margin-left: 25px;
 	margin-top: 5px;
 	margin-bottom: 20px;
-	height: 50px;
 }
 .position-icon{
 	background-color: #F2F2F2;
@@ -492,7 +491,7 @@ section p{
 	border-top: none;
 }
 .p-title{
-	font-size: 1em;
+	font-size: 1.5em;
 }
 
 .sub-link{
