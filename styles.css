@@ -5,7 +5,6 @@
 body{
 	font-family: "Raleway", sans-serif ;
 	margin: 0px;
-	width: 100%;
 	height: auto;	
 }
 header{
@@ -245,7 +244,6 @@ section p{
 #hosting-block{
 	background-color: #F2F2F2;
 	margin: 20px;
-	width: 100%;
 	border-radius: 20px;
 	padding: 30px;
 }
@@ -325,9 +323,6 @@ section p{
 }
 .grid{
 	display: flex;
-}
-.activity-header{
-	width: 400px;
 }
 .activity-title{
 	font-size: 1.3em;
@@ -469,9 +464,6 @@ section p{
 }
 .service ul{
 	list-style-type: none;
-}
-footer{
-	width: 100%;
 }
 /* Mobil S */
 
@@ -633,9 +625,6 @@ footer{
 	flex-direction: column;
 	margin-bottom: 25px;
 }
-.activity-header{
-	height: 48px;
-}
 #activity{
 	height: auto;
 }
@@ -751,7 +740,6 @@ footer{
 	margin: 69px 20px 20px 15px;
 }
 #activity{
-	width: 100%;
 	height: auto;
 }
 .grid{
@@ -786,7 +774,6 @@ footer{
 		height: auto;
 	}
 	.main-block{
-		width: 100%;
 		flex-wrap: wrap;
 	}
 	.most-pop-content{
@@ -829,7 +816,7 @@ footer{
 		flex-wrap: wrap;
 	}
 	#activity{
-		width: 100%;
+		margin: 10px;
 		height: auto;
 	}
 	.activity-content,.activity-content-fort,.activity-content-frioul,.activity-content-cal,.activity-content-nd,.activity-content-pl{
@@ -860,13 +847,11 @@ footer{
 		height: auto;
 	}
 	.main-block{
-		width: 97%;
 		height: auto;
 		display: block;
 		margin: 10px;
 	}
 	.most-popular{
-		width: 100%;
 		height: auto;
 		margin: 0;
 		padding: 0;
@@ -882,7 +867,7 @@ footer{
 	.most-clicable{
 		display: flex;
 		text-decoration: none;
-		width: 91%;
+		width: 33%;
 	}
 	.most-pop-title{
 		font-size: 14px;
@@ -900,10 +885,12 @@ footer{
 		font-size: 12px;
 	}
 	#hosting-block{
-		width: 100%;
 		height: auto;
 		padding: 0;
 		margin: 15px 0;
+	}
+	.hosting-header{
+		height: auto;
 	}
 	.host-clicable{
 		width: 33%;
@@ -918,7 +905,7 @@ footer{
 	}
 	.hosting-content{
 		margin: 10px;
-		width: 90%;
+		width: 100%;
 		height: 195px;
 	}
 	.hosting-img{
@@ -1066,9 +1053,6 @@ footer{
 	.load-more{
 		margin: 70px 20px 5px 40px;
 	}
-	#activity{
-		width: 100%;
-	}
 	.grid{
 		width: 100%;
 	}
@@ -1177,9 +1161,6 @@ footer{
 	.most-pop-img{
 		width: 36%;
 		height: 135px;
-	}
-	#activity{
-		width: 100%;
 	}
 	.grid{
 		width: 99%;
@@ -1634,7 +1615,5 @@ footer{
 	
 		
 }
-
-
 
 
