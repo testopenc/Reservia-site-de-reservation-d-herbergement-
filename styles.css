@@ -105,7 +105,7 @@ section search-section{
 }
 
 .filters-title{
-	margin-left: 25px;
+	margin-left: 6vw;
 }
 
 .filters{
@@ -508,7 +508,6 @@ section p{
 }
 .search-content{
 	margin: 15px;
-	height: 53px;
 }
 .search-bar{
 	width: 50%;
@@ -525,9 +524,7 @@ section p{
 .filters{
 	display: flex;
 	flex-wrap: wrap;
-	width: 30%;
 	padding: 5px;
-	width: 100%;
 }
 .list-filters{
 	width: 141px;
