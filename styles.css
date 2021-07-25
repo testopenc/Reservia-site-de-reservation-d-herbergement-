@@ -100,7 +100,7 @@ section search-section{
 	color: white;
 	height: 50px;
 }
-.search-icon{
+.search-icon.fas.fa-search{
 	display: none;
 }
 
@@ -504,6 +504,7 @@ section p{
 }
 #search-button{
 	height: 53px;
+	width: 54px;
 }
 .search-content{
 	margin: 15px;
@@ -512,14 +513,10 @@ section p{
 .search-bar{
 	width: 50%;
 }
-.search-icon{
-	background-color: #0065fc;
+.search-icon.fas.fa-search{
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	width: 50px;
-	border-radius: 15px;
-	height: 50px;
 	color: white;
 }
 .search{
