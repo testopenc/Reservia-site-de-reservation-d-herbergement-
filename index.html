@@ -7,11 +7,26 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 	<script src="https://kit.fontawesome.com/f9895cbb83.js" crossorigin="anonymous"></script>
 	<title>Reservia</title>
+	<style>
+		::placeholder {
+ 		 color: black;
+ 		 opacity: 1; /* Firefox */
+}
+	</style>
 </head>
 
 <body>
 	<!--Header-->
 	<header class="header">	
+			<img class="logo-header" src="images/logo/Reservia.svg" alt="logo Reservia" />
+				<div class="nav-bar-sub">
+					<a class="sub-link" href="#"><strong>S'inscrire</strong></a>
+						<nav class="nav-bar">
+							<a class="nav-link-h" href="#hosting-block">Hébergements</a>
+							<a class="nav-link" href="#activity">Activités</a>
+						</nav>
+				</div>			
+
 		<img class="logo-header" src="images/logo/Reservia.svg" alt="logo Reservia" />
 			<div class="nav-bar-sub">
 				<a class="sub-link" href="#"><strong>S'inscrire</strong></a>
@@ -20,6 +35,7 @@
 						<a class="nav-link" href="#activity">Activités</a>
 					</nav>
 			</div>			
+
 	</header>
 	<!--Section search-->
 
@@ -33,9 +49,14 @@
 			<i class="fa fa-map-marker" aria-hidden="true"></i>
 		</div>
 			<input class="search-bar" type="text" name="place" placeholder="Marseille, France"/>
+
+			<button id="search-button">Rechercher</button>
+			<div class="search-icon"><i class="fas fa-search"></i></div>
+
 			<button id="search-button">
 				<span class="search">Rechercher</span><i class="search-icon fas fa-search"></i>
 			</button>
+
 		</div>
 		<div class="filters-content">
 			<h2 class="filters-title">Filtres</h2>
@@ -71,6 +92,21 @@
 			</div>
 	</header>
 			<div class="content-content">
+			<div class="most-pop-content">
+				<img class="most-pop-img" src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="Hôtel Le soleil du matin">
+				<div class="most-pop-txt">
+				<h3>Hôtel Le soleil du matin</h3>
+				<p>Nuit à partir de 128<strong>€</strong></p>
+				<div class="notation">
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>	
+					<i class="fas fa-star"></i>
+				</div>
+				</div>
+			</div>
+
 				<a href="#" class="most-clicable">
 					<div class="most-pop-content">
 						<img class="most-pop-img" src="images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="Hôtel Le soleil du matin">
@@ -122,7 +158,8 @@
 			</div>
 			</a>
 			</div>
-			
+
+			</div>
 	</section>
 
 <!--Section hosting header-->
@@ -187,6 +224,52 @@
 			</div>
 		</a>
 
+
+		<div class="hosting-content">
+			<img class= "hosting-img" src="images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="Hôtel de la Mer">
+			<div class="hosting-text">
+					<h3>Hôtel de la mer</h3>
+					<p>Nuit à partir de 46<strong>€</strong></p>
+					<div class="host-notation">
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="far fa-star"></i>
+					<i class="far fa-star"></i>
+					</div>	
+			</div>
+		</div>
+
+		<div class="hosting-content">
+			<img class= "hosting-img" src="images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="Auberge Le Panier">
+				<div class="hosting-text">
+					<h3>Auberge Le Panier</h3>
+						<p>Nuit à partir de 23<strong>€</strong></p>
+							<div class="host-notation">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>	
+							<i class="far fa-star"></i>
+							</div>	
+				</div>
+		</div>
+
+		<div class="hosting-content">
+			<img class= "hosting-img" src="images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="Hôtel chez Amina">	
+			<div class="hosting-text">
+			<h3>Hôtel chez Amina</h3>
+			<p>Nuit à partir de 96<strong>€</strong></p>
+				<div class="host-notation">
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>
+					<i class="fas fa-star"></i>	
+					<i class="fas fa-star"></i>	
+				</div>
+			</div>
+			</div>
+		</div>
 		<a href="#" class="host-clicable">
 			<div class="hosting-content">
 				<img class= "hosting-img" src="images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="Hôtel de la Mer">
@@ -238,7 +321,6 @@
 			</div>
 		</a>
 		</div>
-
 		<div class="load-more">
 			<h4>Affichez plus</h4>
 		</div>
@@ -279,13 +361,19 @@
 				</div>
 			</a>
 		</div>
-		
+
+		<div class="activity-content-cal">
+			<img class="activity-img-cal" src="images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="Parc National des Calanques">
+			<div class="activity-txt-cal">
+				<h3>Parc National des Calanques</h3>
+
 		<a href="#" class="act-clicable">
 			<div class="activity-content-cal">
 				<img class="activity-img-cal" src="images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="Parc National des Calanques">
 					<div class="activity-txt-cal">
 						<h3>Parc National des Calanques</h3>
 					</div>
+
 			</div>
 		</a>
 		<div class="activity-block-s">
