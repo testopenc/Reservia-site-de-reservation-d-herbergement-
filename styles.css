@@ -1979,7 +1979,7 @@ footer{
 	.activity-img-pl{
 		width: 228px;
 		height: 102px;
-=======
+
  }
 
  /* Intermédiare 4k */
@@ -2098,7 +2098,7 @@ footer{
 	}
 /* 4K */
 
-	@media screen and (min-width: 2027px) and (max-width: 2560px){
+@media screen and (min-width: 2027px) and (max-width: 2560px){
 	.logo-header{
 		margin-right: 50%;
 		width: 12em;
@@ -2271,7 +2271,6 @@ footer{
 	}
 	.service ul{
 		font-size: 1.3em;
-	}
-	
-		
+	}			
 
+    }
