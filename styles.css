@@ -1,11 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
-
-
 body{
 	font-family: "Raleway", sans-serif ;
 	margin: 0px;
-	width: 100%;
 	height: auto;	
 }
 header{
@@ -16,7 +13,6 @@ header{
 img{
 	object-fit: cover;
 }
-
 .nav-bar{
 	display: flex;
 	align-items: center;	
@@ -78,10 +74,7 @@ section search-section{
 	align-items: center;
 	justify-content: center;
 	width: 50px;
-  height: 50px;
-	border-radius: 9px 0 0 9px 9px 0 0 9px;	
 	border-radius: 9px 0 0 9px;	
-
 }
 .search-bar{
 	padding-left: 10px;
@@ -104,42 +97,15 @@ section search-section{
 	color: white;
 	height: 50px;
 }
-
-.search-icon{
-	display: none;
-}
-
-.filters-content{
-	width: 100%;
-}
 .search-icon.fas.fa-search{
 	display: none;
 }
-
 .filters-title{
 	margin-left: 3vw;
 }
-
 .filters{
 	display: inline-flex;
 }
-.list-filters:hover{
-	background-color: #DEEBFF;
-}
-.list-filters-f:hover{
-	background-color: #DEEBFF;
-}
-.list-filters-aa:hover{
-	background-color: #DEEBFF;
-}
-.list-filters{
-	margin: 20px;
-	list-style-type: none;
-	padding-right: 20px;
-	border: 1px solid #DEEBFF;
-	border-radius: 30px;	
-}
-
 .filters p{
 	font-weight: bolder;
 	color: black;
@@ -150,7 +116,6 @@ section search-section{
 	background-color: #DEEBFF;
 	transform:scale(1.05) translateY(-2px)
 }
-
 .list-filters{
 	margin: 20px;
 	list-style-type: none;
@@ -159,7 +124,6 @@ section search-section{
 	border-radius: 30px;
 	width: 150px;	
 }
-
 .list-filters-f,.list-filters-aa{
 	margin: 20px;
 	list-style-type: none;
@@ -179,7 +143,6 @@ section search-section{
 	display: flex;
 	align-items: center;
 }
-
 .info{
 	width: 25px;
 	height: 25px;
@@ -191,35 +154,29 @@ section search-section{
 	justify-content: center;
 	margin-right: 15px;
 }
-
 .main-block{
 	display: flex;
 	flex-direction: row-reverse;
 }
-
 .most-popular{
 	background-color: #F2F2F2;
 	border-radius: 20px;
 	margin: 20px;
 	padding: 30px;
 }
-
 .most-pop-header{
 	display: flex;
 	height: 85px;
 	width: 100%;
 }
-
 .most-pop-title{
 	font-size: 16.9px;
 	margin: 20px;
 }
-
 .most-pop-icon{
 	margin-left: 150px;
 	margin-top: 45px;
 }
-
 .most-pop-content{
 	display: flex;
 	border-radius: 20px;
@@ -242,7 +199,6 @@ section search-section{
 	color: black;
 }
 .most-pop-img{
-	width: 190px;
 	width: 127px;
 	border-radius: 20px 0 0 20px;
 	height: 213px;
@@ -262,12 +218,6 @@ section search-section{
 section p{
 	color: rgb(133, 127, 127);
 }
-
-#hosting-block{
-	background-color: #F2F2F2;
-	margin: 20px;
-	width: 100%;
- }
 #hosting-block{
 	background-color: #F2F2F2;
 	margin: 20px;
@@ -330,11 +280,6 @@ section p{
 .load-more{
 	margin: 140px 20px 5px 40px;
 }
-
-
-#activity{
-	margin: 20px 15px 5px 5px;
-}
 #activity{
 	margin: 20px 15px 15px 5px;
 }
@@ -361,7 +306,6 @@ section p{
 	margin: 5px 5px 10px 25px;
 }
 /* port*/
-
 .activity-content{
 	width: 400px;
 	height: 420px;
@@ -381,7 +325,6 @@ section p{
 	margin: 5px 5px 5px 15px;
 }
 /*fort*/
-
 .activity-content-fort{
 	width: 380px;
 	height: 248px;
@@ -401,7 +344,6 @@ section p{
 	margin: 3px 3px 5px 15px;	
 }
 /* frioul*/
-
 .activity-content-frioul{
 	width: 380px;
 	height: 156px;
@@ -421,7 +363,6 @@ section p{
 	margin: 3px 3px 5px 15px;
 }
 /* calanques*/
-
 .activity-content-cal{
 	width: 400px;
 	height: 420px;
@@ -441,7 +382,6 @@ section p{
 	margin: 3px 3px 5px 15px;	
 }
 /* notre dame*/
-
 .activity-content-nd{
 	width: 380px;
 	height: 197px;
@@ -461,7 +401,6 @@ section p{
 	margin: 3px 3px 5px 15px;
 }
 /* parc*/
-
 .activity-content-pl{
 	width: 380px;
 	height: 207px;
@@ -481,7 +420,6 @@ section p{
 	margin: 3px 3px 5px 15px;
 }
 /* footer */
-
 .footer-content{
 	background-color: #F2F2F2;
 	display: flex;
@@ -497,80 +435,7 @@ section p{
 .service ul{
 	list-style-type: none;
 }
-
-
-footer{
-	width: 100%;
-}
-
 /* Mobil S */
-
-@media screen and (min-width: 320px) and (max-width: 446px) {
-	.header{
-		display: flex;
-		flex-direction: column;
-		position: relative;
-	}
-	.logo-header{
-		margin: 20px;
-		padding: 0;
-		width: 30%;
-	}
-	
-	.nav-bar-sub{
-		display: inline;
-	}
-	.nav-bar{
-		width: 100%;
-	}
-	.nav-link-h{
-		border-top: none;
-		border-bottom: 5px solid #0065FC;
-		padding: 25px;
-		width: 50%;
-	}
-	.nav-link{
-		border-bottom: 5px solid rgb(182, 178, 178);
-		width: 50%;
-		padding: 25px;
-		border-top: none;
-	}
-	.p-title{
-		font-size: 1em;
-	}
-
-	.sub-link{
-		justify-content: flex-end;
-		align-items: center;
-		font-size: 16px;
-		position: absolute;
-		top: 20%;
-		right: 9%;
-	}
-	.search-content{
-		margin: 15px;
-		width: 100%;
-	}
-	#search-button{
-		display: none;
-
-	}
-	.search-bar{
-		width: 52%;
-	}
-	.search-icon{
-		background-color: #0065fc;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		width: 50px;
-		border-radius: 15px;
-		height: 50px;
-		color: white;
-	}
-
-/* Mobil S */
-
 @media screen and (min-width: 320px) and (max-width: 446px) {
 .header{
 	display: flex;
@@ -605,7 +470,6 @@ footer{
 .p-title{
 	font-size: 1.5em;
 }
-
 .sub-link{
 	justify-content: flex-end;
 	align-items: center;
@@ -648,6 +512,7 @@ footer{
 	height: 51px;
 }
 .list-filters-f{
+	width: 107px;
 	width: 105px;
 	margin: 0 0 15px 10px;
 	font-size: 12px;
@@ -737,7 +602,6 @@ footer{
 	margin: 0;
 	padding: 7px;
 }
-
 .activity-content,.activity-content-fort,.activity-content-frioul,.activity-content-cal,.activity-content-nd,.activity-content-pl{
 	width: 98%;
 	height: 20%;
@@ -754,7 +618,6 @@ footer{
 }
 }
 /* Mobil M */
-
 @media screen and (min-width: 447px) and (max-width: 580px){
 .logo-header{
 	margin-right: 1%;
@@ -784,7 +647,6 @@ footer{
 	display: flex;
 	flex-wrap: wrap;
 }
-
 .main-block{
 	display: block;
 	margin: 10px;
@@ -858,10 +720,8 @@ footer{
 	width: 100%;
 	flex-direction: column;
 }
-
 }
 /* Mobil L */
-
 @media screen and (min-width: 581px) and (max-width: 675px){
 	.logo-header{
 		margin-right: 5%;
@@ -870,7 +730,6 @@ footer{
 	.sub-link{
 		margin-right: 17px;
 	}
-
 	.filters,#hosting-block{
 		display: flex;
 		flex-wrap: wrap;
@@ -931,11 +790,8 @@ footer{
 	.activity-block,.activity-block-s{
 		width: 100%;
 	}
-
 }
-
 /* Tablet */
-
 @media screen and (min-width: 676px) and (max-width: 808px){
 	.logo-header{
 		margin-right: 19%;
@@ -946,26 +802,6 @@ footer{
 	.filters{
 		display: flex;
 		flex-wrap: wrap;
-		width: 30%;
-		padding: 5px;
-		width: 100%;
-	}
-	.list-filters{
-		width: 136px;
-		margin: 0 0 15px 10px;
-		font-size: 12px;
-		height: 51px;
-
-	}
-	.list-filters-f{
-		width: 103px;
-		margin: 0 0 15px 10px;
-		font-size: 12px;
-	}
-	.list-filters-aa{
-		width: 167px;
-		margin: 0 0 15px 10px;
-		font-size: 12px;
 		height: auto;
 	}
 	.main-block{
@@ -1078,7 +914,6 @@ footer{
 	}
 }
 /* Intermédiaire Tablet/ Laptop */
-
 @media screen and (min-width: 809px) and (max-width: 1028px){
 	
 	.logo-header{
@@ -1336,18 +1171,8 @@ footer{
 	.activity-img-pl{
 		width: 100%;
 	}
-
-	.most-pop-header{
-		height: 65px;
-		align-items: center;
-		justify-content: space-between;
-	}
-
-	.most-pop-title{
-		font-size: 13px;
 }
 /* Intermédiaire Laptop L vers 4K */
-
 @media screen and (min-width: 1400px) and (max-width: 1718px){
 	.logo-header{
 		margin-right: 55%;
@@ -1356,14 +1181,6 @@ footer{
 		width: 100px;
 		margin-left: 45px;
 	}
-	.most-pop-img{
-		width: 46%;
-		height: 151px;
-	}
-	.most-pop-icon{
-		font-size: 19px;
-		margin: 10%;
-   }
 	.main-block{
 		width: 100%;
 	}
@@ -1390,28 +1207,6 @@ footer{
 		width: 65%;
 		padding: 0;
 	}
-
-	#hosting-block{
-		margin: 0%;
-		padding: 0%;
-		background-color: white;
-		height: auto;
-		width: 100%;
-	}
-	.hosting-header{
-		height: 35px;
-		margin-top: 25px;
-	}
-	.hosting-content{
-		display: flex;
-		flex-direction: column;
-		margin: 20px 10px 0 10px;
-		width: 90%;
-	}
-	.hosting-title{
-		font-size: 13px;
-		margin: 0 15px;
- }
 	.hosting-grid{
 		display: flex;
 		flex-wrap: wrap;
@@ -1429,26 +1224,6 @@ footer{
 		width: 100%;
 	}
 	.grid{
-		flex-direction: column;
-		margin-bottom: 25px;
-	}
-	.activity-header{
-		height: 48px;
-	}
-
-	#activity{
-		height: auto;
-	}
-
-	.activity-title{
-		font-size: 16px;
-		margin: 0;
-		padding: 7px;
-	}
-	.activity-content{
-		width: 98%;
-		height: 20%;
-		margin: 20px 5px;
 		width: 98%;
 	}
 	.activity-content{
@@ -1464,9 +1239,6 @@ footer{
 		width: 62%;
 	}
 	.activity-content-fort{
-		width: 98%;
-		height: 20%;
-		margin: 20px 5px;
 		width: 94%;
 		margin-left: 0;
 	}
@@ -1474,9 +1246,6 @@ footer{
 		width: 100%;
 	}
 	.activity-content-frioul{
-		width: 98%;
-		height: 20%;
-		margin: 20px 5px;
 		width: 94%;
 		margin-left: 0;
 	}
@@ -1484,9 +1253,6 @@ footer{
 		width: 100%;
 	}
 	.activity-content-cal{
-		width: 98%;
-		height: 20%;
-		margin: 20px 5px;
 		width: 85%;
 	}
 	.activity-img-cal{
@@ -1496,9 +1262,6 @@ footer{
 		width: 58%;
 	}
 	.activity-content-nd{
-		width: 98%;
-		height: 20%;
-		margin: 20px 5px;
 		width: 94%;
 		margin-left: 0;
 	}
@@ -1506,484 +1269,14 @@ footer{
 		width: 100%;
 	}
 	.activity-content-pl{
-		width: 98%;
-		height: 20%;
-		margin: 20px 5px;
 		width: 94%;
 		margin-left: 0;
 	}
 	.activity-img-pl{
 		width: 100%;
 	}
-/* Mobil M */
-
-@media screen and (min-width: 447px) and (max-width: 580px){
-	.logo-header{
-		margin-right: 1%;
-	}
-	.nav-bar-sub{
-		padding: 0px;
-	}
-	.nav-link-h{
-		width: 25%;
-	}
-	.sub-link{
-		top: 95%;
-		right: 10%;
-	}
-	.search-content{
-		margin-left: 8%;
-	}
-	.filters{
-		display: flex;
-		flex-wrap: wrap;
-		width: 100%;
-	}
-	.main-block{
-		display: block;
-		margin: 10px;
-	}
-	.most-popular{
-		margin: 0;
-		padding: 0;
-		width: 100%;
-	}
-	.most-pop-img{
-		height: 140px;
-		width: 120px;
-	}
-	.most-pop-txt{
-		width: 100%;
-	}
-	#hosting-block{
-		margin: 0;
-		padding: 0;
-		margin-top: 20px;
-		width: 100%;
-		height: auto;
-	}
-	.hosting-grid{
-		display: flex;
-		flex-wrap: wrap;
-	}
-	.hosting-content{
-		width: 80%;
-		height: auto;
-		margin: 30px;
-	}
-	.hosting-img{
-		width: 100%;
-		height: 120px;
-	}
-	.hosting-content{
-		width: 75%;
-		height: auto;
-		margin-left: 46px;
-	}
-	.hosting-img{
-		height: 140px;
-	}
-	.hosting-text{
-		height: 64px;
-	}
-	#activity{
-		width: 100%;
-		height: auto;
-	}
-	.grid{
-		flex-direction: column;
-	}
-	.activity-content{
-		width: 90%;
-	}
-	.activity-img{
-		width: 100%;
-	}
-	.activity-content-fort{
-		width: 90% ;
-	}
-	.activity-img-fort{
-		width: 100%;
-	}
-	.activity-content-frioul{
-		width: 90%;
-	}
-	.activity-img-frioul{
-		width: 100%;
-	}
-	.activity-content-cal{
-		width: 90%;
-	}
-	.activity-img-cal{
-		width: 100%;
-	}
-	.activity-content-nd{
-		width: 90%;
-	}
-	.activity-img-nd{
-		width: 100%;
-	}
-	.activity-content-pl{
-		width: 90%;
-	}
-	.activity-img-pl{
-		width: 100%;
-	}
-
-	.footer-content{
-		width: 100%;
-		flex-direction: column;
-	}
-
-}
-/* Mobil L */
-
-@media screen and (min-width: 581px) and (max-width: 675px){
-	.logo-header{
-		margin-right: 7%;
-		margin-left: 10px;
-	}
-	.filters{
-		display: flex;
-		flex-wrap: wrap;
-		width: 100%;
-		height: auto;
-	}
-	.main-block{
-		width: 100%;
-		flex-wrap: wrap;
-	}
-	#hosting-block{
-		display: flex;
-		flex-wrap: wrap;
-		width: 100%;
-		height: auto;
-	}
-	.grid{
-		display: flex;
-		flex-wrap: wrap;
-	}
-	.footer-content{
-		display: flex;
-		flex-wrap: wrap;
-	}
-	#hosting-block{
-		margin: 30px;
-		padding: 0;
-		margin-top: 20px;
-		width: 100%;
-		height: auto;
-	}
-	.hosting-grid{
-		display: flex;
-		flex-wrap: wrap;
-	}
-	.hosting-content{
-		width: 80%;
-		height: auto;
-		margin: 30px;
-	}
-	.hosting-img{
-		width: 100%;
-		height: 120px;
-	}
-	.hosting-content{
-		width: 75%;
-		height: auto;
-		margin-left: 46px;
-	}
-	.hosting-img{
-		height: 140px;
-	}
-	.hosting-text{
-		height: 64px;
-	}
-	#activity{
-		width: 100%;
-		height: auto;
-	}
-	.grid{
-		flex-direction: column;
-	}
-	.activity-content{
-		width: 90%;
-	}
-	.activity-img{
-		width: 100%;
-	}
-	.activity-content-fort{
-		width: 90% ;
-	}
-	.activity-img-fort{
-		width: 100%;
-	}
-	.activity-content-frioul{
-		width: 90%;
-	}
-	.activity-img-frioul{
-		width: 100%;
-	}
-	.activity-content-cal{
-		width: 90%;
-	}
-	.activity-img-cal{
-		width: 100%;
-	}
-	.activity-content-nd{
-		width: 90%;
-	}
-	.activity-img-nd{
-		width: 100%;
-	}
-	.activity-content-pl{
-		width: 90%;
-	}
-	.activity-img-pl{
-		width: 100%;
-	}
-
-}
-
-/* Tablet */
-
-@media screen and (min-width: 676px) and (max-width: 808px){
-	.logo-header{
-		margin-right: 25%;
-	}
-	.filters{
-		display: flex;
-		flex-wrap: wrap;
-		width: 100%;
-		height: auto;
-	}
-	.main-block{
-		width: 100%;
-		height: auto;
-		display: block;
-	}
-	.most-popular{
-		width: 100%;
-		height: auto;
-		margin: 0;
-		padding: 0;
-	}
-	.content-content{
-		display: flex;
-	}
-	.most-pop-content{
-		width: 231px;
-		margin: 30px 10px;
-		height: 145px;
-	}
-	.most-pop-title{
-		font-size: 14px;
-		width: 68%;
-	}
-	.most-pop-img{
-		height: 145px;
-		width: 90px;
-	}
-	.most-pop-icon{
-		margin-top: 37px;
-		margin-left: 140px;
-	}
-	.most-pop-txt{
-		font-size: 14px;
-	}
-	#hosting-block{
-		width: 87%;
-		height: auto;
-	}
-	.hosting-title{
-		margin: 0;
-		font-size: 13px
-	}
-	.hosting-content{
-		margin: 10px;
-		width: 194px;
-		height: 195px;
-	}
-	.hosting-img{
-		width: 194px;
-		border-radius: 20px 20px 0 0;
-		height: 127px;
-	}
-	.hosting-text{
-		font-size: 14px;
-	}
-	.load-more{
-		margin-top: 25px;
-	}
-	.grid{
-		display: flex;
-		flex-wrap: wrap;
-		margin: 10px;
-	}
-	.activity-content{
-		width: 50%;
-	}
-	.activity-img{
-		width: 100%;
-	}
-	.activity-block{
-		width: 45%;
-	}
-	.activity-content-fort{
-		width: 100%;
-	}
-	.activity-img-fort{
-		width: 100%;
-	}
-	.activity-content-frioul{
-		width: 100%;
-	}
-	.activity-img-frioul{
-		width: 100%;
-	}
-	.activity-content-cal{
-		width: 48%;
-	}
-	.activity-img-cal{
-		width:100%;
-	}
-	.activity-block-s{
-		width: 47%;
-	}
-	.activity-content-nd{
-		width: 100%;
-	}
-	.activity-img-nd{
-		width: 100%;
-	}
-	.activity-content-pl{
-		width: 100%;				
-	}
-	.activity-img-pl{
-		width: 100%;
-	}
-}
-@media screen and (min-width: 809px) and (max-width: 1028px){
-	
-	.logo-header{
-	margin-right: 37%;
-	}
-	.sub-link{
-		width: 8%;
-	}
-	.most-popular{
-		width: 31%;
-		padding: 0;
-		height: 570px;
-		margin-left: 0;
-	}
-	.most-pop-title{
-		font-size: 14px;
-		margin: 20px;
-	}
-	.most-pop-icon{
-		margin-left: 52px;
-		margin-top: 43px;
-	}
-	.most-pop-content{
-		margin: 20px;
-		width: 255px;
-		height: 120px;
-	}
-	.most-pop-img{
-		width: 80px;
-		height: 119px;
-	}
-	.most-pop-txt{
-		font-size: 13px;
-	}
-	#hosting-block{
-		padding: 0;
-		width: 65%;
-		height: auto;
-	}
-	.hosting-title{
-		font-size: 14px;
-	}
-	.hosting-grid{
-		display: flex;
-		flex-wrap: wrap;
-	}
-	.hosting-content{
-		width: 191px;
-		margin: 20px 10px;
-		height: 174px;
-	}
-	.hosting-img{
-		width: 191px;
-		height: 110px;
-	}
-	.hosting-text{
-		font-size: 13px;
-		margin-top: 0;
-	}
-	.load-more{
-	margin: 87px 20px 5px 40px;
-	}
-	.grid{
-		width: 100%;
-	}
-	.activity-content{
-		width: 280px;
-		height: 320px;
-	}
-	.activity-img{
-		width: 239px;
-		height: 276px;
-	}
-	.activity-content-fort{
-		width: 228px;
-		height: 197px;
-		margin-left: 0;
-	}
-	.activity-img-fort{
-		width: 228px;
-		height: 153px;
-	}
-	.activity-content-frioul{
-		width: 228px;
-		height: 106px;
-		margin-left: 0;
-	}
-	.activity-img-frioul{
-		width: 228px;
-		height: 62px;
-	}
-	.activity-content-cal{
-		width: 280px;
-		height: 320px;
-		margin-left: 0;
-	}
-	.activity-img-cal{
-		width: 239px;
-		height: 276px;
-	}
-	.activity-content-nd{
-		width: 228px;
-		height: 157px;
-		margin-left: 0;
-	}
-	.activity-img-nd{
-		width: 228px;
-		height: 113px;
-	}
-	.activity-content-pl{
-		width: 228px;
-		height: 146px;
-		margin-left: 0;
-	}
-	.activity-img-pl{
-		width: 228px;
-		height: 102px;
-
  }
-
  /* Intermédiare 4k */
-
 	@media screen and (min-width: 1719px) and (max-width: 2026px){
 	.logo-header{
 		width: 8em;
@@ -2094,11 +1387,9 @@ footer{
 	.activity-img-pl{
 		width: 100%;
 	}
-
 	}
 /* 4K */
-
-@media screen and (min-width: 2027px) and (max-width: 2560px){
+	@media screen and (min-width: 2027px) and (max-width: 2560px){
 	.logo-header{
 		margin-right: 50%;
 		width: 12em;
@@ -2271,6 +1562,7 @@ footer{
 	}
 	.service ul{
 		font-size: 1.3em;
-	}			
-
-    }
+	}
+	
+		
+}
